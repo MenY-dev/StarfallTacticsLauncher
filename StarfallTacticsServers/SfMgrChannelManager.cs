@@ -13,8 +13,8 @@ namespace StarfallTactics.StarfallTacticsServers
         public SfMgrChannelManager() : base()
         {
             Channels.Add(new MatchmakerChannel(this, "Matchmaker", 1));
-            Channels.Add(new Channel(this, "GeneralTextChat", 2));
-            Channels.Add(new Channel(this, "SystemMessages", 3));
+            Channels.Add(new TextChatChannel(this, "GeneralTextChat", 2));
+            Channels.Add(new TextChatChannel(this, "SystemMessages", 3));
             Channels.Add(new Channel(this, "UserAnalytics", 4));
             Channels.Add(new Channel(this, "UserFriends", 5));
         }

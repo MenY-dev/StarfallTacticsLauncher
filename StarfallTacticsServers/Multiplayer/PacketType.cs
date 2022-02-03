@@ -5,6 +5,7 @@
         None = 0,
         Auth = 1,
         AuthResponse = 2,
-        Battle = 3
+        Battle = 3,
+        Chat = 4
     }
 }

@@ -12,9 +12,9 @@ namespace StarfallTactics.StarfallTacticsServers
     {
         public RealmMgrChannelManager() : base()
         {
-            Channels.Add(new Channel(this, "Deprived Chat", 6));
-            Channels.Add(new Channel(this, "Eclipse Chat", 7));
-            Channels.Add(new Channel(this, "Vanguard Chat", 8));
+            Channels.Add(new TextChatChannel(this, "Deprived Chat", 6));
+            Channels.Add(new TextChatChannel(this, "Eclipse Chat", 7));
+            Channels.Add(new TextChatChannel(this, "Vanguard Chat", 8));
             Channels.Add(new Channel(this, "CharacterFriends", 9));
             Channels.Add(new Channel(this, "QuickMatch", 10));
             Channels.Add(new Channel(this, "CharactParty", 11));

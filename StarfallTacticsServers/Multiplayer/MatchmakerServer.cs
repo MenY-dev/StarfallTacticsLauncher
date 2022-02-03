@@ -87,6 +87,10 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     HandleBattle(client, doc);
                     break;
 
+                case PacketType.Chat:
+                    HandleChat(client, doc);
+                    break;
+
                 default:
                     break;
             }
@@ -126,6 +130,34 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             {
                 ["id"] = player.Id,
                 ["auth"] = player.Auth
+            });
+        }
+
+        protected void HandleChat(TcpClient client, MatchmakerPacket packet)
+        {
+            JsonNode doc = packet?.Document;
+            Player player = GetPlayer(client);
+
+            if (doc is null || player is null)
+                return;
+
+            string msg = (string)doc["msg"];
+
+            if (msg is null)
+                return;
+
+            Task.Factory.StartNew(() =>
+            {
+                foreach (var item in Players)
+                {
+                    item?.Send(PacketType.Chat, new JsonObject
+                    {
+                        ["id"] = player.Id,
+                        ["auth"] = player.Auth,
+                        ["name"] = player.Name,
+                        ["msg"] = msg
+                    });
+                }
             });
         }
 

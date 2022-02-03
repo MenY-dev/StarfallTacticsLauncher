@@ -55,14 +55,14 @@ namespace StarfallTactics.StarfallTacticsServers
 
                 case 16:
                     string textPacketData = Encoding.Unicode.GetString(buffer, 5, header.Size - 5);
-                    Log($"Text({textPacketData})");
+                    Log($"Text Packet: (Channel Id = {BitConverter.ToInt32(buffer, 0)}, Text = {textPacketData})");
                     GetChannelById(BitConverter.ToInt32(buffer, 0))?.Input(textPacketData);
                     break;
 
                 case 32:
                     byte[] binaryPacketData = new byte[header.Size - 5];
                     Array.Copy(buffer, 5, binaryPacketData, 0, binaryPacketData.Length);
-                    Log($"Bytes({BitConverter.ToString(buffer).Replace("-", "")})");
+                    Log($"Binary Packet: (Channel Id = {BitConverter.ToInt32(buffer, 0)}, Data = {BitConverter.ToString(buffer).Replace("-", "")})");
                     GetChannelById(BitConverter.ToInt32(buffer, 0))?.Input(binaryPacketData);
                     break;
 
@@ -175,6 +175,11 @@ namespace StarfallTactics.StarfallTacticsServers
         public virtual void Send(SFCP.BinaryPacket packet, byte[] data)
         {
             UseClientStream((stream) => PacketHandler.Write(stream, packet, data));
+        }
+
+        public virtual void Send(SFCP.TextPacket packet, string text)
+        {
+            UseClientStream((stream) => PacketHandler.Write(stream, packet, text));
         }
 
         public virtual void Send(SFCP.Request request)

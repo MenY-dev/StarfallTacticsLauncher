@@ -52,6 +52,19 @@ namespace StarfallTactics.StarfallTacticsServers
             stream.Write(data, 0, data.Length);
         }
 
+        public static void Write(Stream stream, SFCP.TextPacket packet, string text)
+        {
+            int maxLength = 16000;
+
+            if (text.Length > maxLength)
+                text = text.Substring(0, maxLength);
+
+            byte[] data = Encoding.Unicode.GetBytes(text);
+            packet.Header.Size = (ushort)(Marshal.SizeOf(packet) + data.Length);
+            Write(stream, packet);
+            stream.Write(data, 0, data.Length);
+        }
+
         public static void Write(Stream stream, SFCP.BinaryPacket packet, byte[] data)
         {
             packet.Header.Size = (ushort)(Marshal.SizeOf(packet) + data.Length);

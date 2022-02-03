@@ -72,6 +72,11 @@ namespace StarfallTactics.StarfallTacticsServers
             ChannelManager?.Send(packet, data);
         }
 
+        public virtual void Send(SFCP.TextPacket packet, string text)
+        {
+            ChannelManager?.Send(packet, text);
+        }
+
         public virtual void Send(SFCP.Request request)
         {
             ChannelManager?.Send(request);
