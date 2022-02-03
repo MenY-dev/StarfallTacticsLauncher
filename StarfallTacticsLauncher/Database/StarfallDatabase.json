@@ -1,0 +1,7567 @@
+{
+  "ships": [
+    {
+      "hull": 509735579,
+      "name": "Elision",
+      "faction": "Criterion",
+      "class": "Unknown"
+    },
+    {
+      "hull": 107205271,
+      "name": "Shammuramat",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1452827324,
+      "name": "Gammarus",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1265695556,
+      "name": "Maltet",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2064339753,
+      "name": "Rudren",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 439449052,
+      "name": "Chimera",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1383252631,
+      "name": "Anubis",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2003616236,
+      "name": "Rebirth",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1162415908,
+      "name": "Argus",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1195151783,
+      "name": "Eko",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 11556023,
+      "name": "Nero",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1573617605,
+      "name": "Amber",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2083892232,
+      "name": "Ankou",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 3944632,
+      "name": "Creed",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 924727673,
+      "name": "Orcus",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1472154812,
+      "name": "Heresy",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 152348735,
+      "name": "Cenotaph",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1259732331,
+      "name": "ITO",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1042845690,
+      "name": "Merit",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 8166718,
+      "name": "Moloch",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1871570463,
+      "name": "Acumen",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 112480543,
+      "name": "Legacy",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 587404833,
+      "name": "Aurora-512",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 583232661,
+      "name": "Nirari",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 250699329,
+      "name": "Endeavour",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 713931320,
+      "name": "Djehuty",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 836319570,
+      "name": "Manticora",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2041672194,
+      "name": "Slash",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1343212635,
+      "name": "Astu",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1300966717,
+      "name": "Hermes",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 789746730,
+      "name": "Valor",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2030601551,
+      "name": "K-273",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 621386391,
+      "name": "Crusta",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1639619449,
+      "name": "Duty",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1688575110,
+      "name": "Oria",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1926251238,
+      "name": "Traveler-3",
+      "faction": "Yoba",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1759819397,
+      "name": "Abaris D.K.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1539941312,
+      "name": "Abaris D.N.A.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 125335266,
+      "name": "Abaris J.R.R.T.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 551529169,
+      "name": "Abaris W.F.G.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1127121457,
+      "name": "Advisor A.C.C.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 248164649,
+      "name": "Advisor J.G.V.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 718762159,
+      "name": "Advisor L.C.N.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1257338813,
+      "name": "Advisor N.R.M.G.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 492306199,
+      "name": "Atlantes A.N.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 651290280,
+      "name": "Atlantes B.N.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 642072600,
+      "name": "Atlantes K.C.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1965634015,
+      "name": "Atlantes U.K.L.G.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1107013852,
+      "name": "Shield Neutralizer",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1722276544,
+      "name": "Agony",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1745804103,
+      "name": "Bishop G.R.R.M.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1305825520,
+      "name": "Bishop I.V.M.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1511573884,
+      "name": "Bishop MCL",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 968656183,
+      "name": "Bishop O.L.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 100903269,
+      "name": "Bishop W.I.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1373511182,
+      "name": "Bruno H.A.O.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 660030164,
+      "name": "Bruno H.G.W.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1472440169,
+      "name": "Bruno M.W.G.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 236364057,
+      "name": "Bruno R.A.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 87278845,
+      "name": "Cassandra A.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1493676782,
+      "name": "Cassandra C.B.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 386974818,
+      "name": "Cassandra C.D.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 528329353,
+      "name": "Cassandra R.L.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 633727828,
+      "name": "Faust E.C.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 59826948,
+      "name": "Faust H.M.D.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1027466614,
+      "name": "Faust I.A.Y.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 889729523,
+      "name": "Faust J.W.G.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1759435981,
+      "name": "Gwydion A.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 325510344,
+      "name": "Gwydion D.R.K.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 203721717,
+      "name": "Gwydion R.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1141606337,
+      "name": "Gwydion T.D.B.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 303524722,
+      "name": "Hecate A.Z.R.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 281267692,
+      "name": "Hecate G.C.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1477613556,
+      "name": "Hecate J.H.H.B.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 610113555,
+      "name": "Hecate J.M.C.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1053742475,
+      "name": "Kolgrim H.P.L.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1050639611,
+      "name": "Lost Greatness",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1773303947,
+      "name": "Kolgrim M.J.M.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2121267102,
+      "name": "Kolgrim O.F.F.W.W.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 128972726,
+      "name": "Kolgrim S.E.K.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 746223646,
+      "name": "Kolgrim XVI",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 233201629,
+      "name": "Medea A.L.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2053902342,
+      "name": "Medea F.P.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1919102774,
+      "name": "Medea R.J.Z.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 91191704,
+      "name": "Medea Y.I.Z.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 852626730,
+      "name": "Merlin A.P.R.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 230208678,
+      "name": "Merlin A.A.N.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1362440956,
+      "name": "Merlin CCL",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 50221689,
+      "name": "Merlin A.N.T.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2123232172,
+      "name": "Merlin J.K.R.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1276344976,
+      "name": "Vengeance",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 719769403,
+      "name": "Newton E.R.B.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 577382450,
+      "name": "Newton J.W.P.L.B.H.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 793145452,
+      "name": "Newton N.D.P.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1424572951,
+      "name": "Newton S.V.L.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 311661011,
+      "name": "Prospero",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 352839448,
+      "name": "Prospero",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1643871651,
+      "name": "Ancestors Scars",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 63783394,
+      "name": "Salem D.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1021913978,
+      "name": "Salem E.A.B.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 681341380,
+      "name": "Salem F.K.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1313075945,
+      "name": "Salem I.A.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1399323102,
+      "name": "Salem MIV",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1390607493,
+      "name": "Solomon A.I.C.D.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 623083266,
+      "name": "Solomon G.M.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2105749258,
+      "name": "Solomon LIX",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1207728251,
+      "name": "Solomon R.A.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1163370837,
+      "name": "Solomon S.L.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 708303210,
+      "name": "Sorrow",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1955779012,
+      "name": "Ursula R.A.S.",
+      "faction": "Deprived",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2083801834,
+      "name": "Arco B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 552883555,
+      "name": "Arco MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1336499003,
+      "name": "Arco MK2L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 249538593,
+      "name": "Arco MK3SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 567506755,
+      "name": "Arco MK5SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1012174624,
+      "name": "Artaban B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1005192487,
+      "name": "Shield Neutralizer",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1658329825,
+      "name": "Centenary B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2047899530,
+      "name": "Centenary B2",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1893557106,
+      "name": "Centenary MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 529688906,
+      "name": "Centenary MK2L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1489393892,
+      "name": "Centenary MK3SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 801248254,
+      "name": "Eagle B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1714504599,
+      "name": "Eagle MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 326799668,
+      "name": "Eagle MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 105914585,
+      "name": "Eagle MK3SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 204247076,
+      "name": "Eureka B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1727165334,
+      "name": "Dazzling Spark",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 340788363,
+      "name": "Eureka M1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1063968941,
+      "name": "Eureka MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1857284930,
+      "name": "Eureka MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1847584389,
+      "name": "Eureka MK2L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1730432850,
+      "name": "Eureka MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 503117271,
+      "name": "Eureka MK3A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1509547767,
+      "name": "Eureka MK3SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 321539418,
+      "name": "Halley B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 545213507,
+      "name": "Halley MK1SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1084066752,
+      "name": "Halley MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 683295168,
+      "name": "Halley MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 690249573,
+      "name": "Hope B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1508063914,
+      "name": "Hope MK1SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1241454891,
+      "name": "Hope MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2025070339,
+      "name": "Hope MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1490694361,
+      "name": "Logan B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1436353306,
+      "name": "Logan MK1SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1571557055,
+      "name": "Logan MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 207688855,
+      "name": "Logan MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1228657903,
+      "name": "Nomad B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1618227608,
+      "name": "Nomad B2",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1419787952,
+      "name": "Nomad MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1822050169,
+      "name": "Nomad MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 849235741,
+      "name": "Nomad MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 328783938,
+      "name": "Orlov B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 140592251,
+      "name": "Orlov MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 924207699,
+      "name": "Orlov MK2L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 268655705,
+      "name": "Orlov MK3SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1233676735,
+      "name": "Aureola",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 671292130,
+      "name": "Paragon B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 807833417,
+      "name": "Paragon M1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 618969950,
+      "name": "Paragon MK1L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1855749096,
+      "name": "Paragon MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 67818821,
+      "name": "Paragon MK3A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 640758406,
+      "name": "Pilgrim B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1711433439,
+      "name": "Pilgrim MK1SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 428758516,
+      "name": "Pilgrim MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1212373964,
+      "name": "Pilgrim MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 276127746,
+      "name": "Premier B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 665697451,
+      "name": "Premier B2",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 907818389,
+      "name": "Halo",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 412669033,
+      "name": "Premier M1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 683663931,
+      "name": "Premier MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1173485448,
+      "name": "Premier MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 113111720,
+      "name": "Premier MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2075552304,
+      "name": "Regent B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 564623581,
+      "name": "Glow Reflection",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 64609943,
+      "name": "Regent M1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 845685401,
+      "name": "Regent MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 835984860,
+      "name": "Regent MK1L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 374386766,
+      "name": "Regent MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 153501683,
+      "name": "Regent MK3SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1272943373,
+      "name": "Skullstar B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 856130497,
+      "name": "Skullstar MK1L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1659147027,
+      "name": "Skullstar MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 112765588,
+      "name": "Skullstar MK3SC",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 261585947,
+      "name": "Sunrise B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 398127234,
+      "name": "Sunrise M1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1010918911,
+      "name": "Sunrise MK1L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1813935441,
+      "name": "Sunrise MK2A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 459767782,
+      "name": "Sunrise MK3A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1031812006,
+      "name": "Sunrise MK3SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 67819820,
+      "name": "Solar Wind",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 541969857,
+      "name": "Timur B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 282655058,
+      "name": "Timur MK1A",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1336561075,
+      "name": "Timur MK2SO",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1859586495,
+      "name": "Timur MK3L",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1978179795,
+      "name": "Vargas",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 392985104,
+      "name": "Vargas B1",
+      "faction": "Eclipse",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1408046879,
+      "name": "Aegis Asl-17",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2011428286,
+      "name": "Aegis Asl-21",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 53879220,
+      "name": "Aegis Asl-27",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 407022770,
+      "name": "Aegis LRM-3",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 384991222,
+      "name": "Aegis LRM-11",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 871951408,
+      "name": "Aegis LRS",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 282746580,
+      "name": "Aegis LRM-7",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 985686575,
+      "name": "Aegis Spc-28",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1589067982,
+      "name": "Aegis SPC-32",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 999863154,
+      "name": "Aegis SPC-36",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 161972268,
+      "name": "Aegis St-712",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 760197297,
+      "name": "Almace Asl-136",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1915815825,
+      "name": "Almace LRM-55",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 518298233,
+      "name": "Almace Spc-426",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 254455506,
+      "name": "Almace St-847",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 955638640,
+      "name": "Almace St-900",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1544612270,
+      "name": "Ancile LRM-42",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2097787653,
+      "name": "Ancile Spc-37",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 578017752,
+      "name": "Ancile St-61",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 614623037,
+      "name": "Ancile Stl-90",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 326409090,
+      "name": "Balmung Asl-108",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1656835699,
+      "name": "Balmung Asl-27",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 259379843,
+      "name": "Balmung LRM-28",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 830729111,
+      "name": "Balmung Spc-29",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 245965251,
+      "name": "Balmung St-23",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1985592629,
+      "name": "Shield Neutralizer",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2079168793,
+      "name": "Clarent Asl-21",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 207089742,
+      "name": "Clarent LRM-82",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1296760943,
+      "name": "Clarent Spc-39",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 488421087,
+      "name": "Clarent St-77",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1872836825,
+      "name": "Curtana Asl-170",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 761278395,
+      "name": "Curtana Asl-321",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1250528522,
+      "name": "Curtana Asl-500",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 872381158,
+      "name": "Blazing Fist",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 16280490,
+      "name": "Curtana LRM-18",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1445807082,
+      "name": "Curtana LRM-67",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 309927163,
+      "name": "Curtana LRM-99",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 359362143,
+      "name": "Curtana Mod-101",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1640162433,
+      "name": "Curtana St-907",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1859302435,
+      "name": "Curtana Stl-636",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1020859366,
+      "name": "Curtana Stl-712",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1754871696,
+      "name": "Curtana Stl-800",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1163921509,
+      "name": "Durendal Asl-103",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 588893260,
+      "name": "Durendal Asl-115",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 531733896,
+      "name": "Durendal LRM-202",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 233137195,
+      "name": "Durendal Spc-219",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 699815901,
+      "name": "Durendal St-92",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1274220926,
+      "name": "Helskor Asl-9",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1452726470,
+      "name": "Helskor Spc-7",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 992708415,
+      "name": "Helskor St-6",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 578577101,
+      "name": "Helskor Stl-11",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 769581177,
+      "name": "Ichaival Asl-10",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 376181409,
+      "name": "Ichaival LRM-5",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 682225431,
+      "name": "Ichaival Mod-103",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 664912637,
+      "name": "Ichaival Spc-2",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 67221032,
+      "name": "Spirit of Rage",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1937569507,
+      "name": "Ichaival St-83",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1307576792,
+      "name": "Ichaival Stl-10",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 5268544,
+      "name": "Kibisis",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1938143833,
+      "name": "Kibisis ST-8",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1568528975,
+      "name": "Libra Asl-187",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2081396837,
+      "name": "Libra Spc-800",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2146146084,
+      "name": "Libra Spc-735",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1202562909,
+      "name": "Libra St-721",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1232550385,
+      "name": "Libra Stl-434",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1832519111,
+      "name": "Mjolnir Asl-22",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1045281085,
+      "name": "God of War",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 572551393,
+      "name": "Mjolnir LRM-503",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1251696118,
+      "name": "Mjolnir Mod-107",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1279203688,
+      "name": "Mjolnir Spc-404",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 793315603,
+      "name": "Mjolnir St-13",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1415349627,
+      "name": "Mjolnir St-44",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 25883728,
+      "name": "Muramasa Asl-93",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1014976036,
+      "name": "Muramasa St-12",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 25842143,
+      "name": "Muramasa LRM-44",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 418635223,
+      "name": "Muramasa Spc-8",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1855538177,
+      "name": "Sampo ST-220",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 6091606,
+      "name": "Talaria Asl-31",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 601947311,
+      "name": "Talaria LRM-1",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2073799897,
+      "name": "Talaria St-12",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1824737574,
+      "name": "Talaria Stl-8",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 332714039,
+      "name": "Tarnhelm Asl-118",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2119562540,
+      "name": "Tarnhelm Asl-15",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 491698120,
+      "name": "Tarnhelm Asl-218",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 47437825,
+      "name": "Tarnhelm Asl-74",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 453547169,
+      "name": "Iron Guard",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1645463345,
+      "name": "Tarnhelm Mod-112",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1975158082,
+      "name": "Tarnhelm Spc-111",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1683025657,
+      "name": "Tarnhelm Spc-18",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1150527145,
+      "name": "Tarnhelm Spc-54",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 12115151,
+      "name": "Tarnhelm St-32",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 904182718,
+      "name": "Tarnhelm LRM-200",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 343331048,
+      "name": "Tarnhelm LRM-220",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1136647037,
+      "name": "Tarnhelm LRM-230",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 102491487,
+      "name": "Tizona ASL-18",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1004400810,
+      "name": "Tizona ASL-212",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 529482345,
+      "name": "Esprit de Corps",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1957338958,
+      "name": "Tizona LRM-4",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1665505839,
+      "name": "Tizona Mod-105",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1915429866,
+      "name": "Tizona SPC-007",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 536190375,
+      "name": "Tizona ST-58",
+      "faction": "Vanguard",
+      "class": "Unknown"
+    },
+    {
+      "hull": 166767082,
+      "name": "Artaban Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1218069133,
+      "name": "Charon Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1577246823,
+      "name": "Kibisis Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2143737538,
+      "name": "Prospero Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 238770095,
+      "name": "Sampo Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 374036638,
+      "name": "Ursula Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1804880538,
+      "name": "Vargas Traders",
+      "faction": "FreeTraders",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2098067955,
+      "name": "Aegis Mineworker Union",
+      "faction": "MineworkersUnion",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1483576455,
+      "name": "Charon",
+      "faction": "MineworkersUnion",
+      "class": "Unknown"
+    },
+    {
+      "hull": 687835997,
+      "name": "Kolgrim Mineworker Union",
+      "faction": "MineworkersUnion",
+      "class": "Unknown"
+    },
+    {
+      "hull": 269183317,
+      "name": "Abaris Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1142623366,
+      "name": "Advisor Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1733374205,
+      "name": "Aegis Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1434987798,
+      "name": "Almace Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1672137747,
+      "name": "Ancile Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 253064530,
+      "name": "Arco Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2009915948,
+      "name": "Balmung Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1618901284,
+      "name": "Bishop Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1324692106,
+      "name": "Bruno Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1143254688,
+      "name": "Cassandra Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2070579397,
+      "name": "Centenary Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1528702751,
+      "name": "Clarent Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1349474068,
+      "name": "Cloudbringer",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1046162929,
+      "name": "Conqueror",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1270825896,
+      "name": "Curtana Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1189267996,
+      "name": "Durendal Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 849845814,
+      "name": "Eagle Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 713514804,
+      "name": "Eureka Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 104293571,
+      "name": "Eyeless",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 427878815,
+      "name": "Faust Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1144166431,
+      "name": "Gwydion Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 733469570,
+      "name": "Halley Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2005304325,
+      "name": "Hecate Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 143313170,
+      "name": "Helskor Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 656397529,
+      "name": "Hope Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 392449542,
+      "name": "Ichaival Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 906466615,
+      "name": "Nebulords Avarice",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1995141233,
+      "name": "Infinitor",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1065519903,
+      "name": "Kolgrim Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 644162578,
+      "name": "Libra Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 321891229,
+      "name": "Logan Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1748946968,
+      "name": "Medea Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 194979966,
+      "name": "Merlin Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 727673437,
+      "name": "Mjolnir Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 285889844,
+      "name": "Muramasa Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1356751514,
+      "name": "Newton Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1588797003,
+      "name": "Nomad Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 308613386,
+      "name": "Orlov Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 783940138,
+      "name": "Paragon Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 895434508,
+      "name": "Phantom",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1740157406,
+      "name": "Pilgrim Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1465016266,
+      "name": "Premier Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 558477808,
+      "name": "Regent Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 527250590,
+      "name": "Salem Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1854430753,
+      "name": "Skullstar Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2075298545,
+      "name": "Solomon Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1959165607,
+      "name": "Sunrise Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 657230512,
+      "name": "Talaria Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1963828940,
+      "name": "Tarnhelm Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1808726821,
+      "name": "Timur Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 625656388,
+      "name": "Tizona Nebulords",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2084434245,
+      "name": "Welder",
+      "faction": "Nebulords",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1323488411,
+      "name": "Abaris P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2126099428,
+      "name": "Advisor P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1766637571,
+      "name": "Aegis P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1633032692,
+      "name": "Almace P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 331876905,
+      "name": "Ancile P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 933226960,
+      "name": "Arco P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1590560771,
+      "name": "Atlantes P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1930030618,
+      "name": "Balmung P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2081288274,
+      "name": "Bishop P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 809797704,
+      "name": "Bruno P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1750196782,
+      "name": "Cassandra P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 404270731,
+      "name": "Centenary P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2104530230,
+      "name": "Curtana P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1284551498,
+      "name": "Durendal P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1580766740,
+      "name": "Eagle P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1646911458,
+      "name": "Eureka P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1720065429,
+      "name": "Faust P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 98914645,
+      "name": "Gwydion P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 519720064,
+      "name": "Halley P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1118869451,
+      "name": "Hecate P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1107900304,
+      "name": "Helskor P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 775567764,
+      "name": "Hivemind",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1395110527,
+      "name": "Hope P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 306993508,
+      "name": "Ichaival P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1961501461,
+      "name": "Kolgrim P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1587425616,
+      "name": "Libra P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 808845411,
+      "name": "Logan P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1764253349,
+      "name": "",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1845662758,
+      "name": "Medea P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 489829148,
+      "name": "Merlin P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 341748323,
+      "name": "Mjolnir P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1797842402,
+      "name": "Muramasa P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1836233176,
+      "name": "Newton P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 734049697,
+      "name": "Nomad P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 902666632,
+      "name": "Orlov P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 804048296,
+      "name": "Paragon P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1422303842,
+      "name": "Plaguebearer",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2059987528,
+      "name": "Premier P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1225264382,
+      "name": "Regent P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1722569276,
+      "name": "Salem P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1253449795,
+      "name": "",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 581088903,
+      "name": "Skullstar P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1529398679,
+      "name": "Solomon P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 702009501,
+      "name": "Sunrise P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1928413438,
+      "name": "Talaria P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1763692986,
+      "name": "Tarnhelm P.Y.R.A.M.I.D.",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1017452923,
+      "name": "Time Lord",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1715579371,
+      "name": "Timur P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1764066418,
+      "name": "Tizona P.Y.R.A.M.I.D",
+      "faction": "Pyramid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1573062860,
+      "name": "Charon P.Y.R.A.M.I.D.",
+      "faction": "Raid",
+      "class": "Unknown"
+    },
+    {
+      "hull": 177907637,
+      "name": "Abaris Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1513387826,
+      "name": "Advisor Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1176156989,
+      "name": "Aegis Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1707638402,
+      "name": "Almace Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1872256859,
+      "name": "Ancile Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 714674574,
+      "name": "Arco Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 7363401,
+      "name": "Armadillo",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 978019709,
+      "name": "Atlantes Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 848458912,
+      "name": "Balmung Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 66449208,
+      "name": "Bishop Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 147979622,
+      "name": "Bruno Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 97652356,
+      "name": "Cassandra Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1994776677,
+      "name": "Centenary Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1133439645,
+      "name": "Chakram",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1525073655,
+      "name": "Clarent Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 232050668,
+      "name": "Curtana Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 394845136,
+      "name": "Durendal Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 865336610,
+      "name": "Eagle Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1235484168,
+      "name": "Eureka Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 2027195522,
+      "name": "Exterminator",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1575593847,
+      "name": "Faust Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 877705223,
+      "name": "Guntress",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1593213943,
+      "name": "Gwydion Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1312776702,
+      "name": "Halley Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1940726437,
+      "name": "Hecate Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1118622286,
+      "name": "Helskor Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1499379049,
+      "name": "Hope Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 713411250,
+      "name": "Ichaival Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 981913979,
+      "name": "Injector",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1216314688,
+      "name": "Joker",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 157720840,
+      "name": "KillDoser",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 936893175,
+      "name": "Kolgrim Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 704999758,
+      "name": "Libra Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 518174045,
+      "name": "Logan Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 154374556,
+      "name": "Medea Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1514582730,
+      "name": "Merlin Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1041693,
+      "name": "Mjolnir Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 933450863,
+      "name": "Mommy",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 844004360,
+      "name": "Muramasa Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1012911670,
+      "name": "Newton Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 121560115,
+      "name": "Nomad Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1118259686,
+      "name": "Orlov Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1274667142,
+      "name": "Paragon Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 13945254,
+      "name": "Premier Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1389697428,
+      "name": "Regent Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 598872170,
+      "name": "Salem Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 141057553,
+      "name": "Skullstar Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 298205494,
+      "name": "Screechers Meatcrusher",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1639416993,
+      "name": "Solomon Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1201367263,
+      "name": "Sunrise Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 745970516,
+      "name": "Talaria Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 282341568,
+      "name": "Tarnhelm Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1559359301,
+      "name": "Timur Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    },
+    {
+      "hull": 194536920,
+      "name": "Tizona Screechers",
+      "faction": "Screechers",
+      "class": "Unknown"
+    }
+  ],
+  "items": [
+    {
+      "id": 454104588,
+      "name": "Antimatter Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1118615138,
+      "name": "Antimatter Cannon \u0022Dark Dream\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1852746280,
+      "name": "Antimatter Flux",
+      "type": "Cannon"
+    },
+    {
+      "id": 911617938,
+      "name": "Asimov-2350J",
+      "type": "Cannon"
+    },
+    {
+      "id": 1450128192,
+      "name": "AAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 999660368,
+      "name": "Assault Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 1780705248,
+      "name": "Assault Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 2089211041,
+      "name": "ABA",
+      "type": "Cannon"
+    },
+    {
+      "id": 30666041,
+      "name": "ABC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1182670980,
+      "name": "AHAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1202982475,
+      "name": "AHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 850537139,
+      "name": "Assault Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1480978402,
+      "name": "Assault Spread Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 975164381,
+      "name": "Auto Artillery Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1676064211,
+      "name": "AutoBattery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1106883398,
+      "name": "Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 2110953296,
+      "name": "Auto Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 232046526,
+      "name": "AG",
+      "type": "Cannon"
+    },
+    {
+      "id": 1897477367,
+      "name": "Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 505851063,
+      "name": "BC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1668463216,
+      "name": "Blaster Cannon \u0022Scorcher\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 2110308239,
+      "name": "\u0022Browning\u0022 Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 945336620,
+      "name": "Corrosive Heavy Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 606315596,
+      "name": "Corrosive Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 262484017,
+      "name": "Broken Ion Gun \u0022New Time\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1310173721,
+      "name": "Broken Long Range Gun \u0022Wyvern\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 771009139,
+      "name": "Broken Melting Gun \u0022Adventurer\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 447019111,
+      "name": "Defensive Cannon \u0022Sentinel\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 2049929902,
+      "name": "DC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1691498176,
+      "name": "Demolition Cannon \u0022Smiley\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 2048287742,
+      "name": "\u0022Doppelganger\u0022 Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1797642411,
+      "name": "Double Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 496584902,
+      "name": "EMP Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1398135946,
+      "name": "EBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 974781291,
+      "name": "ESBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 281560418,
+      "name": "Eradicate Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1019425518,
+      "name": "Eraser",
+      "type": "Cannon"
+    },
+    {
+      "id": 1542700309,
+      "name": "Frag Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 228790267,
+      "name": "Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 796034789,
+      "name": "\u0022Griffon\u0022 Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 1059113935,
+      "name": "Hammerhead Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1093973377,
+      "name": "Heavy Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1803539122,
+      "name": "Heavy Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 568262410,
+      "name": "Heavy Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1834283673,
+      "name": "HC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1158272477,
+      "name": "Heavy Cannon \u0022Storegga\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 58557141,
+      "name": "Heavy Canonn \u0022Silence\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 854090997,
+      "name": "HPC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1561547934,
+      "name": "Improved Antimatter Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1163869452,
+      "name": "Improved Antimatter Cannon \u0022Dark Dream\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 834440362,
+      "name": "AAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1915944594,
+      "name": "Improved Assault Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 549505826,
+      "name": "Improved Assault Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1127740987,
+      "name": "ABA",
+      "type": "Cannon"
+    },
+    {
+      "id": 546380779,
+      "name": "ABC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1125772294,
+      "name": "AHAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 2006701229,
+      "name": "AHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1134068356,
+      "name": "Improved Assault Spread Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1635906263,
+      "name": "Improved Auto Artillery Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1985600909,
+      "name": "Improved AutoBattery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1493120360,
+      "name": "Improved Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 718204330,
+      "name": "Improved Auto Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 728281816,
+      "name": "AG",
+      "type": "Cannon"
+    },
+    {
+      "id": 857437065,
+      "name": "Improved Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 354598529,
+      "name": "BC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1661666682,
+      "name": "Improved Blaster Cannon \u0022Scorcher\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 879108817,
+      "name": "Improved \u0022Browning\u0022 Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 598426574,
+      "name": "Improved Corrosive Heavy Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 599519062,
+      "name": "Improved Corrosive Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 561545976,
+      "name": "Improved \u0022Doppelganger\u0022 Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1157326784,
+      "name": "Improved EMP Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 358095644,
+      "name": "EBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 917882605,
+      "name": "ESBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 538326965,
+      "name": "Improved Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1182271751,
+      "name": "Improved \u0022Griffon\u0022 Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 2010257603,
+      "name": "Improved Heavy Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 410790156,
+      "name": "Improved Heavy Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1421221756,
+      "name": "Improved Heavy Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 2143820371,
+      "name": "HC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1819014359,
+      "name": "Improved Heavy Cannon \u0022Storegga\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 862275895,
+      "name": "Improved Heavy Canonn \u0022Silence\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 238403167,
+      "name": "HPC",
+      "type": "Cannon"
+    },
+    {
+      "id": 750843760,
+      "name": "Improved Ion Gun \u0022New Time\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 2079278319,
+      "name": "Improved Light Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1512244755,
+      "name": "Improved Light Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 2032108056,
+      "name": "Improved Light Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 32902676,
+      "name": "Improved Light Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 363886331,
+      "name": "Improved Light EMP Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1532766635,
+      "name": "Improved Light EMP Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 279301008,
+      "name": "Improved Light Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 299940666,
+      "name": "Improved Light Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1615602628,
+      "name": "Improved Long Range Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 153270612,
+      "name": "Improved Long Range Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 423411083,
+      "name": "Improved Long Range Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1792776903,
+      "name": "Improved Long Range Cannon \u0022Siberia\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 715883516,
+      "name": "Improved Long Range Gun \u0022Wyvern\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 955538721,
+      "name": "Improved Long Range Melting Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 349987287,
+      "name": "Improved Long Range Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 2002197348,
+      "name": "Improved Melting Auto Artillery Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 209758330,
+      "name": "Improved Melting AutoBattery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1878709705,
+      "name": "Improved Melting Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 390236789,
+      "name": "Improved Melting Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 2089096526,
+      "name": "Improved Melting Gun \u0022Adventurer\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1687549001,
+      "name": "Improved Melting Heavy Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 367977792,
+      "name": "MHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 481057121,
+      "name": "PAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 651375021,
+      "name": "Improved Piercing Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 322142849,
+      "name": "PHAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1866015736,
+      "name": "PHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1544513835,
+      "name": "Improved Plasma Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 894039835,
+      "name": "Improved Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1805028405,
+      "name": "Improved Plasma Gun \u0022Adventurer\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1191639330,
+      "name": "Improved Plasma Javelin",
+      "type": "Cannon"
+    },
+    {
+      "id": 2083813038,
+      "name": "Improved Rapid Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1366957333,
+      "name": "Improved Power Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 481235671,
+      "name": "Improved Rapid Fire Cannon \u0022Reganon\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1591668743,
+      "name": "Improved Savitar",
+      "type": "Cannon"
+    },
+    {
+      "id": 773044461,
+      "name": "Improved Spread Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1394834666,
+      "name": "SBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 2077833636,
+      "name": "Improved Thermic Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 902096294,
+      "name": "Ion Gun \u0022New Time\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1274467171,
+      "name": "Lancet",
+      "type": "Cannon"
+    },
+    {
+      "id": 1324543637,
+      "name": "Light Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 659285409,
+      "name": "Light Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 2038904590,
+      "name": "Light Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1376667570,
+      "name": "Light Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 591685161,
+      "name": "Light EMP Blaster Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1539563169,
+      "name": "Light EMP Blaster Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1319341310,
+      "name": "Light Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 915628496,
+      "name": "Light Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 925994241,
+      "name": "Long Cannon \u0022Nipper\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 954860746,
+      "name": "Long Range Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1193310914,
+      "name": "Long Range Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 1816160049,
+      "name": "Long Range Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1849675589,
+      "name": "Long Range Cannon \u0022Siberia\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 2059648410,
+      "name": "Long Range Gun \u0022Wyvern\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1917008775,
+      "name": "Long Range Melting Battery",
+      "type": "Cannon"
+    },
+    {
+      "id": 356783821,
+      "name": "Long Range Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 201623746,
+      "name": "Melting Auto Artillery Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1553523224,
+      "name": "Melting AutoBattery",
+      "type": "Cannon"
+    },
+    {
+      "id": 346913887,
+      "name": "Melting Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1621436211,
+      "name": "Melting Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 1573381788,
+      "name": "Melting Gun \u0022Adventurer\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1000973328,
+      "name": "Melting Gun \u0022Chatterbox\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1744447687,
+      "name": "Melting Heavy Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1711742686,
+      "name": "MHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 725765788,
+      "name": "Neutron Blaster",
+      "type": "Cannon"
+    },
+    {
+      "id": 1824822015,
+      "name": "PAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 2044123987,
+      "name": "Piercing Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 1283612903,
+      "name": "PHAC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1205273854,
+      "name": "PHC",
+      "type": "Cannon"
+    },
+    {
+      "id": 789779153,
+      "name": "Plasma Artillery",
+      "type": "Cannon"
+    },
+    {
+      "id": 41080489,
+      "name": "Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 35598212,
+      "name": "Plasma Dissolver",
+      "type": "Cannon"
+    },
+    {
+      "id": 1144286523,
+      "name": "Plasma Gun \u0022Adventurer\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1342891864,
+      "name": "Plasma Javelin",
+      "type": "Cannon"
+    },
+    {
+      "id": 552017220,
+      "name": "Rapid Plasma Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 259513987,
+      "name": "Power Gauss Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 1263554434,
+      "name": "Project X-01 \u0022Ascension\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1617717269,
+      "name": "Prototype PC-372",
+      "type": "Cannon"
+    },
+    {
+      "id": 538134357,
+      "name": "Rapid Fire Cannon \u0022Reganon\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1095433453,
+      "name": "Savitar",
+      "type": "Cannon"
+    },
+    {
+      "id": 291020807,
+      "name": "??",
+      "type": "Cannon"
+    },
+    {
+      "id": 643108958,
+      "name": "Spectral Cannon \u0022Echo\u0022",
+      "type": "Cannon"
+    },
+    {
+      "id": 1813084763,
+      "name": "Spread Auto Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 734092784,
+      "name": "SBC",
+      "type": "Cannon"
+    },
+    {
+      "id": 1571271219,
+      "name": "Stingray",
+      "type": "Cannon"
+    },
+    {
+      "id": 81602522,
+      "name": "Thermic Cannon",
+      "type": "Cannon"
+    },
+    {
+      "id": 2007189872,
+      "name": "Triple Auto Gun",
+      "type": "Cannon"
+    },
+    {
+      "id": 2095544129,
+      "name": "Volcano",
+      "type": "Cannon"
+    },
+    {
+      "id": 1433275254,
+      "name": "Antimatter Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 247975619,
+      "name": "Antimatter Beam \u0022Perun\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1659416622,
+      "name": "Tachyon Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 801335971,
+      "name": "Auto Laser \u0022Coalescence\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1031332175,
+      "name": "Autolaser \u0022Constellation\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1693304622,
+      "name": "Auto Laser \u0022Filira\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 571425764,
+      "name": "Clarity LR-M2",
+      "type": "Beam"
+    },
+    {
+      "id": 6842472,
+      "name": "CQCL",
+      "type": "Beam"
+    },
+    {
+      "id": 1438033486,
+      "name": "Assault Laser \u0022Nightmare\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1068977161,
+      "name": "Broken Assault Laser \u0022Nightmare\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 691067595,
+      "name": "Broken \u0022Equilibrium\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1078518306,
+      "name": "Broken Grand Long Range Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1251110005,
+      "name": "Broken Laser Cannon \u0022Jester\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1626178216,
+      "name": "Broken Plasma Beam \u0022Freya\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1640846446,
+      "name": "Broken Pulse Ion Beam \u0022Nemesis\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1578216821,
+      "name": "Broken \u0022Splendor\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1139986025,
+      "name": "DR",
+      "type": "Beam"
+    },
+    {
+      "id": 1718053544,
+      "name": "Distortion Beam \u0022Calamity\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1915975758,
+      "name": "Ectophase Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 557464955,
+      "name": "Ectophase Beam \u0022Revival\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1844293896,
+      "name": "\u0022Equilibrium\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 2053848867,
+      "name": "Evaporator",
+      "type": "Beam"
+    },
+    {
+      "id": 2086946223,
+      "name": "Grand Long Range Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1771942144,
+      "name": "Harbinger Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1700230732,
+      "name": "HLL",
+      "type": "Beam"
+    },
+    {
+      "id": 134825233,
+      "name": "HML",
+      "type": "Beam"
+    },
+    {
+      "id": 2002129503,
+      "name": "Heavy Omega Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1810594590,
+      "name": "High-Energy Ion Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1253239646,
+      "name": "High-Focused Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 202075832,
+      "name": "Improved Antimatter Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 908717501,
+      "name": "Improved Antimatter Beam \u0022Perun\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1317050709,
+      "name": "Improved Auto Laser \u0022Coalescence\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 300555656,
+      "name": "Improved Auto Laser \u0022Filira\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 827464890,
+      "name": "CQCL",
+      "type": "Beam"
+    },
+    {
+      "id": 822345656,
+      "name": "Improved Assault Laser \u0022Nightmare\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 524298195,
+      "name": "DR",
+      "type": "Beam"
+    },
+    {
+      "id": 1764723224,
+      "name": "Improved Ectophase Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1218206837,
+      "name": "Improved Ectophase Beam \u0022Revival\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 451544930,
+      "name": "Improved \u0022Equilibrium\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 600204457,
+      "name": "Improved Grand Long Range Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1620689610,
+      "name": "Improved Harbinger Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 469031310,
+      "name": "HLL",
+      "type": "Beam"
+    },
+    {
+      "id": 889559915,
+      "name": "HML",
+      "type": "Beam"
+    },
+    {
+      "id": 770930081,
+      "name": "Improved Heavy Omega Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1194906760,
+      "name": "Improved High-Energy Ion Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 213199344,
+      "name": "Improved High-Focused Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1631646769,
+      "name": "Improved Ion Beam \u0022Nemesis\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1956768945,
+      "name": "Improved Ion Disintegration Ray \u0022Centaur\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 570794677,
+      "name": "Improved Ion Laser Battery",
+      "type": "Beam"
+    },
+    {
+      "id": 1551471533,
+      "name": "Improved Ion Laser \u0022Exeligmos\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 156210186,
+      "name": "Improved Kronos",
+      "type": "Beam"
+    },
+    {
+      "id": 1430594244,
+      "name": "LL",
+      "type": "Beam"
+    },
+    {
+      "id": 368474230,
+      "name": "L",
+      "type": "Beam"
+    },
+    {
+      "id": 552038994,
+      "name": "Improved Laser Battery",
+      "type": "Beam"
+    },
+    {
+      "id": 218567757,
+      "name": "Improved Laser Battery \u0022Stella\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1425401737,
+      "name": "Improved Laser Cannon \u0022Calypso\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1004478500,
+      "name": "Improved Laser Cannon \u0022Jester\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 426667808,
+      "name": "Improved Laser Cannon Mithra",
+      "type": "Beam"
+    },
+    {
+      "id": 1509864566,
+      "name": "Improved Laser Cannon \u0022Prototype Zero\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 874976194,
+      "name": "Improved Laser Cannon \u0022Scream\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 706642928,
+      "name": "Improved Laser Cannon \u0022Serenity\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1812959566,
+      "name": "Improved Laser Cannon \u0022Syzygy\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1878856601,
+      "name": "Improved Long Range Ion Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1553076512,
+      "name": "LRLL",
+      "type": "Beam"
+    },
+    {
+      "id": 106596994,
+      "name": "LRL",
+      "type": "Beam"
+    },
+    {
+      "id": 241670613,
+      "name": "LRML",
+      "type": "Beam"
+    },
+    {
+      "id": 759917290,
+      "name": "LRSL",
+      "type": "Beam"
+    },
+    {
+      "id": 1099618089,
+      "name": "ML",
+      "type": "Beam"
+    },
+    {
+      "id": 1860978052,
+      "name": "Improved Mirage Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 701500002,
+      "name": "Improved Mistral Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 2005637229,
+      "name": "Improved Omega Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 30906950,
+      "name": "PHL",
+      "type": "Beam"
+    },
+    {
+      "id": 1738559437,
+      "name": "Improved Plasma Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1861281428,
+      "name": "Improved Plasma Beam \u0022Emerald\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1386655551,
+      "name": "Improved Plasma Beam \u0022Freya\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 429826803,
+      "name": "Improved Ion Beam \u0022Andromeda\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 2096234083,
+      "name": "Improved Proton Beam \u0022Oblivion\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 509059927,
+      "name": "Improved Proton Maser",
+      "type": "Beam"
+    },
+    {
+      "id": 1162532597,
+      "name": "Improved Pulse Ion Beam \u0022Nemesis\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1315299144,
+      "name": "PLL",
+      "type": "Beam"
+    },
+    {
+      "id": 1024364234,
+      "name": "PL",
+      "type": "Beam"
+    },
+    {
+      "id": 1546977757,
+      "name": "PML",
+      "type": "Beam"
+    },
+    {
+      "id": 1783138592,
+      "name": "Improved S-Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 838340448,
+      "name": "Improved Heat Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1188067676,
+      "name": "Improved Small Ion Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 637435022,
+      "name": "SL",
+      "type": "Beam"
+    },
+    {
+      "id": 1869515909,
+      "name": "Improved Small Plasma Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1719927041,
+      "name": "Improved Small Proton Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1155320706,
+      "name": "PSL",
+      "type": "Beam"
+    },
+    {
+      "id": 1652715574,
+      "name": "SoW",
+      "type": "Beam"
+    },
+    {
+      "id": 705669360,
+      "name": "Improved \u0022Splendor\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 50952058,
+      "name": "Improved X-Ray Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 715362543,
+      "name": "Ion Beam \u0022Nemesis\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1228009079,
+      "name": "Ion Disintegration Ray \u0022Centaur\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1963543643,
+      "name": "Ion Laser Battery",
+      "type": "Beam"
+    },
+    {
+      "id": 19675715,
+      "name": "Ion Laser \u0022Exeligmos\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1747226888,
+      "name": "Kronos",
+      "type": "Beam"
+    },
+    {
+      "id": 134493782,
+      "name": "Large Assault Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 1044357282,
+      "name": "LL",
+      "type": "Beam"
+    },
+    {
+      "id": 689207276,
+      "name": "L",
+      "type": "Beam"
+    },
+    {
+      "id": 1846563296,
+      "name": "Laser Battery",
+      "type": "Beam"
+    },
+    {
+      "id": 1562332651,
+      "name": "Laser Battery \u0022Stella\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 621682983,
+      "name": "Laser Cannon \u0022Calypso\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 2092987269,
+      "name": "Laser Cannon \u0022Infinity\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1620166330,
+      "name": "Laser Cannon \u0022Jester\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1042355638,
+      "name": "Laser Cannon Mithra",
+      "type": "Beam"
+    },
+    {
+      "id": 1737663396,
+      "name": "Laser Cannon \u0022Prototype Zero\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1490664024,
+      "name": "Laser Cannon \u0022Scream\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 45901046,
+      "name": "Laser Cannon \u0022Serenity\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 281163748,
+      "name": "Laser Cannon \u0022Syzygy\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 347060783,
+      "name": "Long Range Ion Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 892334630,
+      "name": "LRLL",
+      "type": "Beam"
+    },
+    {
+      "id": 1337796416,
+      "name": "LRL",
+      "type": "Beam"
+    },
+    {
+      "id": 1873439523,
+      "name": "LRML",
+      "type": "Beam"
+    },
+    {
+      "id": 99175408,
+      "name": "LRSL",
+      "type": "Beam"
+    },
+    {
+      "id": 2147051680,
+      "name": "Proton Beam \u0022Lustre\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 790081391,
+      "name": "ML",
+      "type": "Beam"
+    },
+    {
+      "id": 1474741090,
+      "name": "Mirage Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 391963304,
+      "name": "Mistral Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1104331843,
+      "name": "L",
+      "type": "Beam"
+    },
+    {
+      "id": 1325431252,
+      "name": "PHL",
+      "type": "Beam"
+    },
+    {
+      "id": 848779320,
+      "name": "PhN",
+      "type": "Beam"
+    },
+    {
+      "id": 1352322475,
+      "name": "Plasma Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 329485610,
+      "name": "Plasma Beam \u0022Emerald\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 631920869,
+      "name": "Plasma Beam \u0022Freya\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1916568569,
+      "name": "Ion Beam \u0022Andromeda\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 1292515329,
+      "name": "Proton Beam \u0022Oblivion\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 682531569,
+      "name": "Proton Lance \u0022Colibri\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 199523229,
+      "name": "Proton Maser",
+      "type": "Beam"
+    },
+    {
+      "id": 501790715,
+      "name": "Pulse Ion Beam \u0022Nemesis\u0022",
+      "type": "Beam"
+    },
+    {
+      "id": 560564462,
+      "name": "PLL",
+      "type": "Beam"
+    },
+    {
+      "id": 638127272,
+      "name": "PL",
+      "type": "Beam"
+    },
+    {
+      "id": 439534411,
+      "name": "PML",
+      "type": "Beam"
+    },
+    {
+      "id": 1883303927,
+      "name": "Radiant Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 407378075,
+      "name": "Reconstruction Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1226671646,
+      "name": "S-Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 2069539870,
+      "name": "Heat Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 335108330,
+      "name": "Small Ion Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 251198060,
+      "name": "SL",
+      "type": "Beam"
+    },
+    {
+      "id": 1114781227,
+      "name": "Small Plasma Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 965192359,
+      "name": "Small Proton Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 400586024,
+      "name": "PSL",
+      "type": "Beam"
+    },
+    {
+      "id": 799756228,
+      "name": "SoW",
+      "type": "Beam"
+    },
+    {
+      "id": 2000193662,
+      "name": "\u0022Splendor\u0022 Beam",
+      "type": "Beam"
+    },
+    {
+      "id": 1724148393,
+      "name": "Vendetta",
+      "type": "Beam"
+    },
+    {
+      "id": 1297130320,
+      "name": "X-Ray Laser",
+      "type": "Beam"
+    },
+    {
+      "id": 928989998,
+      "name": "Broken Protector",
+      "type": "Beam"
+    },
+    {
+      "id": 739622141,
+      "name": "Improved Protector",
+      "type": "Beam"
+    },
+    {
+      "id": 1248781267,
+      "name": "Protector",
+      "type": "Beam"
+    },
+    {
+      "id": 412781013,
+      "name": "Antimatter Torpedo \u0022Juggernaut\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 52713976,
+      "name": "\u0022Basilisk\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1587403031,
+      "name": "Beryl Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 32941856,
+      "name": "Cascade Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 502738477,
+      "name": "\u0022Cerberus\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 748100935,
+      "name": "Crescendo",
+      "type": "Missile"
+    },
+    {
+      "id": 790292199,
+      "name": "Broken \u0022Basilisk\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1240316700,
+      "name": "Broken \u0022Cerberus\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1745064835,
+      "name": "Broken \u0022Gorgon\u0022 Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1643268974,
+      "name": "Broken Heavy Ion Launcher \u0022Silent Lightning\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 12051578,
+      "name": "Broken Light Ion Missile Launcher \u0022Alabaster\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 926875947,
+      "name": "Broken Pandora",
+      "type": "Missile"
+    },
+    {
+      "id": 1400624264,
+      "name": "Broken Plasma Missile Launcher \u0022Olivia\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1754201771,
+      "name": "Broken Plasma Rocket Launcher \u0022Cobra\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 804483253,
+      "name": "Broken Salvo Rocket Launcher \u0022Chrysolite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 33590943,
+      "name": "Broken Salvo Rocket Launcher \u0022Cyclone\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1022134915,
+      "name": "Distorter-RL36T",
+      "type": "Missile"
+    },
+    {
+      "id": 1912871818,
+      "name": "Fireblast-3527",
+      "type": "Missile"
+    },
+    {
+      "id": 1029558275,
+      "name": "Goldfinch Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2049612645,
+      "name": "Goliath 618S",
+      "type": "Missile"
+    },
+    {
+      "id": 1605826456,
+      "name": "\u0022Gorgon\u0022 Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 759322689,
+      "name": "Harpy Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1025645055,
+      "name": "Haze Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1659931535,
+      "name": "Heavy Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1137157355,
+      "name": "Heavy Ion Launcher \u0022Silent Lightning\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 815859592,
+      "name": "Hornet Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 778267190,
+      "name": "HRL",
+      "type": "Missile"
+    },
+    {
+      "id": 1002330680,
+      "name": "Hypercane Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2143298938,
+      "name": "Improved \u0022Basilisk\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 100661265,
+      "name": "Improved Beryl Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 445839791,
+      "name": "Improved \u0022Cerberus\u0022 Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 801759445,
+      "name": "Improved Goldfinch Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1599029922,
+      "name": "Improved \u0022Gorgon\u0022 Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1686386937,
+      "name": "Improved Haze Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 28162625,
+      "name": "Improved Heavy Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 537328069,
+      "name": "Improved Heavy Ion Launcher \u0022Silent Lightning\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1331574330,
+      "name": "Improved Hornet Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1964280784,
+      "name": "HRL",
+      "type": "Missile"
+    },
+    {
+      "id": 40860626,
+      "name": "Improved Hypercane Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1875931722,
+      "name": "Improved Ion Missile Launcher Alabaster",
+      "type": "Missile"
+    },
+    {
+      "id": 508749403,
+      "name": "Improved Ion Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1138422325,
+      "name": "Improved \u0022Jay\u0022 Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1807378661,
+      "name": "Improved Light Ion Missile Launcher \u0022Alabaster\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1153427955,
+      "name": "Improved Light Missile Launcher \u0022Charoite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 2089759163,
+      "name": "MA",
+      "type": "Missile"
+    },
+    {
+      "id": 1388218272,
+      "name": "Improved Missile Launcher \u0022Nightingale\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 612420795,
+      "name": "Improved Nuclear Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1518206862,
+      "name": "Improved Onyx",
+      "type": "Missile"
+    },
+    {
+      "id": 949647074,
+      "name": "Improved Pandora",
+      "type": "Missile"
+    },
+    {
+      "id": 2106302164,
+      "name": "Improved Photon Monsoon",
+      "type": "Missile"
+    },
+    {
+      "id": 264922590,
+      "name": "Improved Photon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1355585863,
+      "name": "Improved Photon Rocket Launcher \u0022Agate\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1380429942,
+      "name": "Improved Photon Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1697277289,
+      "name": "PML",
+      "type": "Missile"
+    },
+    {
+      "id": 1726523375,
+      "name": "Improved Plasma Missile Launcher \u0022Olivia\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 572074042,
+      "name": "Improved Plasma Rocket Launcher \u0022Cobra\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 607968666,
+      "name": "Improved Proton Launcher \u0022Squall\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 2127096536,
+      "name": "Improved Proton Missile Launcher \u0022Hoarfrost\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 997618840,
+      "name": "Improved Proton Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1617515708,
+      "name": "Improved Proton Torpedo \u0022Meteor\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 956770276,
+      "name": "Improved Rapid Proton Missile Launche",
+      "type": "Missile"
+    },
+    {
+      "id": 967011049,
+      "name": "Improved Reaper Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2002241689,
+      "name": "Improved Rocket Launcher \u0022Ash\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 425561529,
+      "name": "Improved Rocket Launcher \u0022Azurite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 994489488,
+      "name": "Improved Rocket Launcher \u0022Chrysolite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 672626510,
+      "name": "Improved Rocket Launcher \u0022Cyclone\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 117259151,
+      "name": "Improved Rocket Launcher \u0022Gabbro\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1589587672,
+      "name": "Improved Rocket Launcher \u0022Khamsin\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1092372771,
+      "name": "Improved Rocket Launcher \u0022Maelstrom\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1289370136,
+      "name": "Improved Rocket Launcher \u0022Peridot\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1350216997,
+      "name": "Improved Salvo Heavy Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1927205508,
+      "name": "Improved Salvo Hurricane Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1184731901,
+      "name": "SPML",
+      "type": "Missile"
+    },
+    {
+      "id": 508298164,
+      "name": "Improved Salvo Rocket Launcher \u0022Chrysolite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 160081122,
+      "name": "Improved Salvo Rocket Launcher \u0022Cyclone\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 645318125,
+      "name": "Improved Salvo Rocket Launcher \u0022Leprechaun\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1922167053,
+      "name": "Improved Salvo Swarm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1936956778,
+      "name": "Improved Salvo Typhoon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1190563105,
+      "name": "Improved Ion Launcher \u0022Silent Lightning\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 331983872,
+      "name": "Improved Small Photon Rocket",
+      "type": "Missile"
+    },
+    {
+      "id": 1371768807,
+      "name": "Improved Snowstorm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2054240723,
+      "name": "Improved Sparrow Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1346843944,
+      "name": "Improved \u0022Stribog\u0022 Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 467445657,
+      "name": "Improved Swarm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 217578717,
+      "name": "Improved Torpedo Launcher \u0022Corundum\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1262785267,
+      "name": "Improved Torpedo Launcher \u0022Jasper\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 219716656,
+      "name": "Improved Torpedo Launcher \u0022Peregrine\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1286846366,
+      "name": "Improved Tsunami Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 302018518,
+      "name": "Improved Typhoon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1941814183,
+      "name": "Improved Wasp Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1147171856,
+      "name": "Ion Missile Launcher Alabaster",
+      "type": "Missile"
+    },
+    {
+      "id": 1124437233,
+      "name": "Ion Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 334703571,
+      "name": "\u0022Jay\u0022 Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 929709523,
+      "name": "Light Ion Missile Launcher \u0022Alabaster\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 488301825,
+      "name": "Light Missile Launcher \u0022Charoite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1335024481,
+      "name": "MA",
+      "type": "Missile"
+    },
+    {
+      "id": 38595380,
+      "name": "Hellfire",
+      "type": "Missile"
+    },
+    {
+      "id": 1946236408,
+      "name": "Melting Rocket \u0022Doom\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1735128318,
+      "name": "Missile Launcher \u0022Nightingale\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1728824697,
+      "name": "Mosquito Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 669319481,
+      "name": "Nuclear Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2074355036,
+      "name": "Onyx",
+      "type": "Missile"
+    },
+    {
+      "id": 453411784,
+      "name": "Pandora",
+      "type": "Missile"
+    },
+    {
+      "id": 110071050,
+      "name": "Photon Monsoon",
+      "type": "Missile"
+    },
+    {
+      "id": 1896691500,
+      "name": "Photon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1310331549,
+      "name": "Photon Rocket Launcher \u0022Agate\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1387226476,
+      "name": "Photon Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1704073823,
+      "name": "PML",
+      "type": "Missile"
+    },
+    {
+      "id": 997763509,
+      "name": "Plasma Missile Launcher \u0022Olivia\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 526819728,
+      "name": "Plasma Rocket Launcher \u0022Cobra\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 370570500,
+      "name": "Positron Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 92253928,
+      "name": "Proton Launcher \u0022Squall\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 841068310,
+      "name": "Proton Missile Launcher \u0022Hoarfrost\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1004415374,
+      "name": "Proton Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 956773826,
+      "name": "Proton Torpedo \u0022Meteor\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 653154513,
+      "name": "????",
+      "type": "Missile"
+    },
+    {
+      "id": 1303680322,
+      "name": "Rapid Proton Missile Launche",
+      "type": "Missile"
+    },
+    {
+      "id": 973807583,
+      "name": "Reaper Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 470445871,
+      "name": "Rocket Launcher \u0022Ash\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 432358063,
+      "name": "Rocket Launcher \u0022Azurite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1222288318,
+      "name": "Rocket Launcher \u0022Chrysolite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 679423044,
+      "name": "Rocket Launcher \u0022Cyclone\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1749028061,
+      "name": "Rocket Launcher \u0022Gabbro\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 469224244,
+      "name": "Rocket Launcher \u0022Gnawer\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1596384206,
+      "name": "Rocket Launcher \u0022Khamsin\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 2053842825,
+      "name": "Rocket Launcher \u0022Maelstrom\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1296166670,
+      "name": "Rocket Launcher \u0022Peridot\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 481388254,
+      "name": "Rocket Launcher \u0022Retribution\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1304962683,
+      "name": "Salvo Heavy Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1262079378,
+      "name": "Salvo Hurricane Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1531641947,
+      "name": "SPML",
+      "type": "Missile"
+    },
+    {
+      "id": 1599100778,
+      "name": "Salvo Rocket Launcher \u0022Chrysolite\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 506991168,
+      "name": "Salvo Rocket Launcher \u0022Cyclone\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1736120739,
+      "name": "Salvo Rocket Launcher \u0022Leprechaun\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 2482235,
+      "name": "Salvo Swarm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 136383176,
+      "name": "Salvo Typhoon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1537473151,
+      "name": "Ion Launcher \u0022Silent Lightning\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 947671702,
+      "name": "Small Photon Rocket",
+      "type": "Missile"
+    },
+    {
+      "id": 185755213,
+      "name": "Snowstorm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 2111139409,
+      "name": "Sparrow Torpedo Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1168430558,
+      "name": "Storm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1403742630,
+      "name": "\u0022Stribog\u0022 Missile Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 607814668,
+      "name": "Supernova",
+      "type": "Missile"
+    },
+    {
+      "id": 1954187423,
+      "name": "Swarm Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1038952250,
+      "name": "Thunderbolt",
+      "type": "Missile"
+    },
+    {
+      "id": 1265696894,
+      "name": "Tornado Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 1179048771,
+      "name": "Torpedo Launcher \u0022Corundum\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1269581801,
+      "name": "Torpedo Launcher \u0022Jasper\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 447515486,
+      "name": "Torpedo Launcher \u0022Peregrine\u0022",
+      "type": "Missile"
+    },
+    {
+      "id": 1293642900,
+      "name": "Tsunami Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 308815052,
+      "name": "Typhoon Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 837695689,
+      "name": "Valkyrie",
+      "type": "Missile"
+    },
+    {
+      "id": 1138095429,
+      "name": "Wasp Rocket Launcher",
+      "type": "Missile"
+    },
+    {
+      "id": 451815740,
+      "name": "Heavy Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1570831616,
+      "name": "Improved Large Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 2025172280,
+      "name": "Improved Large Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 271345514,
+      "name": "Improved Large Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 961037158,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 110623741,
+      "name": "Improved Medium Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1237249597,
+      "name": "Improved Medium Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 2087853007,
+      "name": "Improved Medium Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1247900695,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 1058808826,
+      "name": "Improved Small Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 297025602,
+      "name": "Improved Small Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1625669940,
+      "name": "Improved Small Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 959656392,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 463388270,
+      "name": "Large Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1221453526,
+      "name": "Large Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 2032592200,
+      "name": "Large Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 206302476,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 726311571,
+      "name": "Medium Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 576507715,
+      "name": "Medium Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1778316309,
+      "name": "Medium Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 140457349,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 2098849128,
+      "name": "Small Active Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1640790496,
+      "name": "Small Adaptive Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 1239432978,
+      "name": "Small Armor",
+      "type": "Armor"
+    },
+    {
+      "id": 204921710,
+      "name": "0",
+      "type": "Armor"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 489417549,
+      "name": "Improved Light Autogun Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 1736843691,
+      "name": "Improved Light Laser Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 50767260,
+      "name": "Improved Light Plasma Bombers",
+      "type": "Carrier"
+    },
+    {
+      "id": 1976159315,
+      "name": "Light Autogun Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 205047873,
+      "name": "Light Laser Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 666455090,
+      "name": "Light Plasma Bombers",
+      "type": "Carrier"
+    },
+    {
+      "id": 1628881099,
+      "name": "Absorbing Shield",
+      "type": "Engineering"
+    },
+    {
+      "id": 17249883,
+      "name": "Additional Antenna",
+      "type": "Engineering"
+    },
+    {
+      "id": 1606412779,
+      "name": "Advanced Armor Patch",
+      "type": "Engineering"
+    },
+    {
+      "id": 1512911952,
+      "name": "Advanced Sensor",
+      "type": "Engineering"
+    },
+    {
+      "id": 394486741,
+      "name": "Advanced Shield Recharger",
+      "type": "Engineering"
+    },
+    {
+      "id": 1660696707,
+      "name": "Aiming System Hack",
+      "type": "Engineering"
+    },
+    {
+      "id": 1526956052,
+      "name": "Ammo Dispenser",
+      "type": "Engineering"
+    },
+    {
+      "id": 2003110376,
+      "name": "Anti Missile System",
+      "type": "Engineering"
+    },
+    {
+      "id": 75764459,
+      "name": "Anti Radar",
+      "type": "Engineering"
+    },
+    {
+      "id": 1064527060,
+      "name": "Area Shield Disabler",
+      "type": "Engineering"
+    },
+    {
+      "id": 151688196,
+      "name": "Area Shield Generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 1234188021,
+      "name": "Armor Patch Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1874287510,
+      "name": "Autonomous Repair Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 856488682,
+      "name": "Auto Self Destruction Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 217469771,
+      "name": "Auto Turret",
+      "type": "Engineering"
+    },
+    {
+      "id": 70194464,
+      "name": "B.H.S. Launcher",
+      "type": "Engineering"
+    },
+    {
+      "id": 3576156,
+      "name": "Boarding Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 290243992,
+      "name": "Cluster Missile",
+      "type": "Engineering"
+    },
+    {
+      "id": 387353803,
+      "name": "Tactical Explosive Shell",
+      "type": "Engineering"
+    },
+    {
+      "id": 1048124769,
+      "name": "Decoy Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 419902575,
+      "name": "Broken Photon Maneuverability System",
+      "type": "Engineering"
+    },
+    {
+      "id": 969681456,
+      "name": "Directional Shield",
+      "type": "Engineering"
+    },
+    {
+      "id": 211469620,
+      "name": "Distorted Stasis Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1443960781,
+      "name": "Emergency Stasis",
+      "type": "Engineering"
+    },
+    {
+      "id": 12,
+      "name": "Error Warp",
+      "type": "Engineering"
+    },
+    {
+      "id": 569202811,
+      "name": "Emission Detector",
+      "type": "Engineering"
+    },
+    {
+      "id": 210362202,
+      "name": "EMP Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 2077929593,
+      "name": "EMP Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1629999007,
+      "name": "Additional Energy Core",
+      "type": "Engineering"
+    },
+    {
+      "id": 969928080,
+      "name": "Engine Boost",
+      "type": "Engineering"
+    },
+    {
+      "id": 1805956921,
+      "name": "Engine Disruptor",
+      "type": "Engineering"
+    },
+    {
+      "id": 1388891231,
+      "name": "Engine Nullifier",
+      "type": "Engineering"
+    },
+    {
+      "id": 2037923891,
+      "name": "Flack mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 2029438327,
+      "name": "Fleet Warp Jump Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 143562209,
+      "name": "Floating Nebula generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 2110970783,
+      "name": "Focus Fire",
+      "type": "Engineering"
+    },
+    {
+      "id": 927737033,
+      "name": "Force Weapon Reload",
+      "type": "Engineering"
+    },
+    {
+      "id": 1993373720,
+      "name": "Gravity Cannon",
+      "type": "Engineering"
+    },
+    {
+      "id": 1517501299,
+      "name": "Gravity Magnet",
+      "type": "Engineering"
+    },
+    {
+      "id": 1550293210,
+      "name": "Gravity Field",
+      "type": "Engineering"
+    },
+    {
+      "id": 1559092680,
+      "name": "Hard EMP Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 566234019,
+      "name": "Heavy Plasma Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 1600653919,
+      "name": "Improved Anti Radar",
+      "type": "Engineering"
+    },
+    {
+      "id": 2028626690,
+      "name": "Improved Advanced Sensor",
+      "type": "Engineering"
+    },
+    {
+      "id": 1603798021,
+      "name": "Improved Aiming System Hack",
+      "type": "Engineering"
+    },
+    {
+      "id": 1041640322,
+      "name": "Improved Anti Missile System",
+      "type": "Engineering"
+    },
+    {
+      "id": 194147719,
+      "name": "Improved Armor Patch Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 901742996,
+      "name": "Improved Auto Self Destruction Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 971499850,
+      "name": "Improved B.H.S. Launcher",
+      "type": "Engineering"
+    },
+    {
+      "id": 919860382,
+      "name": "Improved Boarding Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1357661467,
+      "name": "Improved Decoy Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 8211402,
+      "name": "Improved Directional Shield",
+      "type": "Engineering"
+    },
+    {
+      "id": 204673086,
+      "name": "Improved Distorted Stasis Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 512304125,
+      "name": "Improved Emission Detector",
+      "type": "Engineering"
+    },
+    {
+      "id": 706597492,
+      "name": "Improved EMP Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 831751331,
+      "name": "Improved EMP Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 589958705,
+      "name": "Improved Additional Energy Core",
+      "type": "Engineering"
+    },
+    {
+      "id": 354240250,
+      "name": "Improved Engine Boost",
+      "type": "Engineering"
+    },
+    {
+      "id": 1799160387,
+      "name": "Improved Engine Disruptor",
+      "type": "Engineering"
+    },
+    {
+      "id": 1382094697,
+      "name": "Improved Engine Nullifier",
+      "type": "Engineering"
+    },
+    {
+      "id": 791745629,
+      "name": "Improved Flack mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 542696561,
+      "name": "Improved Fleet Warp Jump Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1329575803,
+      "name": "Improved Floating Nebula generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 718221817,
+      "name": "Improved Focus Fire",
+      "type": "Engineering"
+    },
+    {
+      "id": 506631954,
+      "name": "Improved Gravity Cannon",
+      "type": "Engineering"
+    },
+    {
+      "id": 63551444,
+      "name": "Improved Gravity Field",
+      "type": "Engineering"
+    },
+    {
+      "id": 1407840146,
+      "name": "Improved Hard EMP Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1320968701,
+      "name": "Improved Heavy Plasma Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 1554033032,
+      "name": "Improved Ion Maneuverability System",
+      "type": "Engineering"
+    },
+    {
+      "id": 507465144,
+      "name": "Improved Kinetic Barrier",
+      "type": "Engineering"
+    },
+    {
+      "id": 1677171140,
+      "name": "Improved Kinetic Wall",
+      "type": "Engineering"
+    },
+    {
+      "id": 2041156743,
+      "name": "Improved Long Range Scanner",
+      "type": "Engineering"
+    },
+    {
+      "id": 2024483003,
+      "name": "Improved Mass Shield Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 9143706,
+      "name": "Improved Mass Stealth Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 699557986,
+      "name": "Improved Modules Disrupt Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 2004170285,
+      "name": "Improved Modules Hack System",
+      "type": "Engineering"
+    },
+    {
+      "id": 350125235,
+      "name": "Improved Nebula generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 1429576277,
+      "name": "Improved Neutron Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 377825560,
+      "name": "Improved Observer Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1276946831,
+      "name": "Improved Plasma Arc Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 136277227,
+      "name": "Improved Plasma Web Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1132984908,
+      "name": "Improved Point Defense Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 786950425,
+      "name": "Improved Ram Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 921214698,
+      "name": "Improved Repair Complex",
+      "type": "Engineering"
+    },
+    {
+      "id": 665620616,
+      "name": "Improved Repair Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 908845887,
+      "name": "Improved Repair Frame",
+      "type": "Engineering"
+    },
+    {
+      "id": 1549222139,
+      "name": "Improved Scanner",
+      "type": "Engineering"
+    },
+    {
+      "id": 287899447,
+      "name": "Improved Self Destruction Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 596173418,
+      "name": "Improved Sensor Disabler",
+      "type": "Engineering"
+    },
+    {
+      "id": 466555521,
+      "name": "Improved Shield Disabler Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1534151972,
+      "name": "Improved Shield Drain Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1081245630,
+      "name": "Improved Shield Network Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1323711123,
+      "name": "Improved Shield Overload",
+      "type": "Engineering"
+    },
+    {
+      "id": 554070753,
+      "name": "Improved Shield Recharger",
+      "type": "Engineering"
+    },
+    {
+      "id": 752373524,
+      "name": "Improved Shield Transfusion Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1418501066,
+      "name": "SWJM",
+      "type": "Engineering"
+    },
+    {
+      "id": 705993064,
+      "name": "Improved S.P.A.R.K. Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1526417936,
+      "name": "Improved Spy Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 478915540,
+      "name": "Improved Stalker Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 324052973,
+      "name": "Improved Stasis Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 697773602,
+      "name": "Improved Stealth Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1937219989,
+      "name": "Improved Swarm Repair Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 1382489610,
+      "name": "Improved Tactical Explosive Shell",
+      "type": "Engineering"
+    },
+    {
+      "id": 55608043,
+      "name": "Improved Ward Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 331767459,
+      "name": "Improved Warp Distortion",
+      "type": "Engineering"
+    },
+    {
+      "id": 2016665492,
+      "name": "Improved Warp Homer",
+      "type": "Engineering"
+    },
+    {
+      "id": 1494719908,
+      "name": "Improved Warp Interference",
+      "type": "Engineering"
+    },
+    {
+      "id": 130339335,
+      "name": "Improved Warp Nullifier",
+      "type": "Engineering"
+    },
+    {
+      "id": 1336382816,
+      "name": "Improved Weapon Overload",
+      "type": "Engineering"
+    },
+    {
+      "id": 960249237,
+      "name": "Improved Weapon System Disabler",
+      "type": "Engineering"
+    },
+    {
+      "id": 1846283304,
+      "name": "Improved Photon Maneuverability System",
+      "type": "Engineering"
+    },
+    {
+      "id": 1781831862,
+      "name": "Ion Maneuverability System",
+      "type": "Engineering"
+    },
+    {
+      "id": 2139234054,
+      "name": "Kinetic Barrier",
+      "type": "Engineering"
+    },
+    {
+      "id": 145375322,
+      "name": "Kinetic Wall",
+      "type": "Engineering"
+    },
+    {
+      "id": 1557933989,
+      "name": "Large Explosive Shell",
+      "type": "Engineering"
+    },
+    {
+      "id": 664900053,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 2098055429,
+      "name": "Long Range Scanner",
+      "type": "Engineering"
+    },
+    {
+      "id": 917039657,
+      "name": "Mass Shield Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 624831536,
+      "name": "Mass Stealth Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 183843248,
+      "name": "Modules Disrupt Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 472374467,
+      "name": "Modules Hack System",
+      "type": "Engineering"
+    },
+    {
+      "id": 1742874201,
+      "name": "Nebula generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 1018804755,
+      "name": "Nebula Jump Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1120039579,
+      "name": "Neutron Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 1609024982,
+      "name": "Observer Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 462043872,
+      "name": "Omicron Generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 1018123144,
+      "name": "Perfect Sensor",
+      "type": "Engineering"
+    },
+    {
+      "id": 539714701,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 1403440381,
+      "name": "Photon Maneuverability System",
+      "type": "Engineering"
+    },
+    {
+      "id": 522212149,
+      "name": "Plasma Arc Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1529026193,
+      "name": "Plasma Web Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 329266154,
+      "name": "Point Defense Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1072127242,
+      "name": "Portable Nebula Generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 114287116,
+      "name": "Portable Shield Generator",
+      "type": "Engineering"
+    },
+    {
+      "id": 2033128687,
+      "name": "Ram Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1410790123,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 260472816,
+      "name": "Repair Complex",
+      "type": "Engineering"
+    },
+    {
+      "id": 1281308446,
+      "name": "Repair Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 1092246477,
+      "name": "Repair Drone System",
+      "type": "Engineering"
+    },
+    {
+      "id": 1524533717,
+      "name": "Repair Frame",
+      "type": "Engineering"
+    },
+    {
+      "id": 2075384509,
+      "name": "Robber Gang",
+      "type": "Engineering"
+    },
+    {
+      "id": 1131452825,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 1700474673,
+      "name": "Scanner",
+      "type": "Engineering"
+    },
+    {
+      "id": 1106148457,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 294695981,
+      "name": "Self Destruction Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 572407645,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 80458680,
+      "name": "Sensor Disabler",
+      "type": "Engineering"
+    },
+    {
+      "id": 1257395004,
+      "name": "0",
+      "type": "Engineering"
+    },
+    {
+      "id": 2098324431,
+      "name": "Shield Disabler Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 2356154,
+      "name": "Shield Drain Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 420503748,
+      "name": "Shield Network Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 807996385,
+      "name": "Shield Overload",
+      "type": "Engineering"
+    },
+    {
+      "id": 1946819719,
+      "name": "Shield Recharger",
+      "type": "Engineering"
+    },
+    {
+      "id": 1296267705,
+      "name": "Shield Repression Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1713843578,
+      "name": "Shield Transfusion Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 614782312,
+      "name": "SWJM",
+      "type": "Engineering"
+    },
+    {
+      "id": 396456366,
+      "name": "S.P.A.R.K. Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 610133710,
+      "name": "Spy Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 169378842,
+      "name": "Stalker Mine",
+      "type": "Engineering"
+    },
+    {
+      "id": 1618577275,
+      "name": "Stasis Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 849026136,
+      "name": "Stealth Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1994118675,
+      "name": "Swarm Repair Drone",
+      "type": "Engineering"
+    },
+    {
+      "id": 1439388296,
+      "name": "Tactical Explosive Shell",
+      "type": "Engineering"
+    },
+    {
+      "id": 1382469273,
+      "name": "Ward Module",
+      "type": "Engineering"
+    },
+    {
+      "id": 1963536369,
+      "name": "Warp Distortion",
+      "type": "Engineering"
+    },
+    {
+      "id": 1261930810,
+      "name": "Warp Homer",
+      "type": "Engineering"
+    },
+    {
+      "id": 1551618594,
+      "name": "Warp Interference",
+      "type": "Engineering"
+    },
+    {
+      "id": 1171963904,
+      "name": "Ship navigation systems are unstable. Warp jump is currently unavailable.",
+      "type": "Engineering"
+    },
+    {
+      "id": 1617081101,
+      "name": "Warp Nullifier",
+      "type": "Engineering"
+    },
+    {
+      "id": 820668078,
+      "name": "Weapon Overload",
+      "type": "Engineering"
+    },
+    {
+      "id": 1307159283,
+      "name": "Weapon System Disabler",
+      "type": "Engineering"
+    },
+    {
+      "id": 49265249,
+      "name": "Improved Large Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1265998876,
+      "name": "Improved Large Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 846047018,
+      "name": "Improved Large Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 216992406,
+      "name": "Improved Medium Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 810441973,
+      "name": "Improved Medium Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 390490115,
+      "name": "Improved Medium Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 107666379,
+      "name": "Improved Small Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 514339534,
+      "name": "Improved Small Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 94387676,
+      "name": "Improved Small Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 588002365,
+      "name": "Large Combined Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1280464671,
+      "name": "Large Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1881686706,
+      "name": "Large Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1461734848,
+      "name": "Large Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1292426965,
+      "name": "Large Standart Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1609741372,
+      "name": "Medium Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 6723219,
+      "name": "Medium Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1734255009,
+      "name": "Medium Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 2089491038,
+      "name": "Medium Stanrat Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1338865801,
+      "name": "Small Ion Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1130027364,
+      "name": "Small Photon Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 710075506,
+      "name": "Small Plasma Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1552306775,
+      "name": "Small Standart Engine",
+      "type": "Engines"
+    },
+    {
+      "id": 1446205494,
+      "name": "Improved Industrial Mining Complex",
+      "type": "Miner"
+    },
+    {
+      "id": 1536902085,
+      "name": "Improved Mining Module",
+      "type": "Miner"
+    },
+    {
+      "id": 1848271804,
+      "name": "Improved Salvage Module",
+      "type": "Miner"
+    },
+    {
+      "id": 260191900,
+      "name": "Industrial Mining Complex",
+      "type": "Miner"
+    },
+    {
+      "id": 66,
+      "name": "",
+      "type": "Miner"
+    },
+    {
+      "id": 3,
+      "name": "Iridium asteroid",
+      "type": "Miner"
+    },
+    {
+      "id": 3,
+      "name": "Ore asteroid",
+      "type": "Miner"
+    },
+    {
+      "id": 3,
+      "name": "Ore and Iridium asteroid",
+      "type": "Miner"
+    },
+    {
+      "id": 1688154619,
+      "name": "Mining Module",
+      "type": "Miner"
+    },
+    {
+      "id": 70,
+      "name": "",
+      "type": "Miner"
+    },
+    {
+      "id": 1999524338,
+      "name": "Salvage Module",
+      "type": "Miner"
+    },
+    {
+      "id": 50,
+      "name": "",
+      "type": "Miner"
+    },
+    {
+      "id": 30,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 27,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 54,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 54,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 70,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 1030315993,
+      "name": "SelfRepairModule",
+      "type": "Misc"
+    },
+    {
+      "id": 54,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 377555174,
+      "name": "Shield Redistribution",
+      "type": "Misc"
+    },
+    {
+      "id": 30,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 41,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 54,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 45,
+      "name": "",
+      "type": "Misc"
+    },
+    {
+      "id": 1949659577,
+      "name": "Advanced Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 988189523,
+      "name": "Improved Advanced Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 988760345,
+      "name": "Improved Large Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1571257027,
+      "name": "Improved Medium Back Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1449747250,
+      "name": "Improved Medium Front Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 215896457,
+      "name": "Improved Medium Left Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1718157659,
+      "name": "Improved Medium Right Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1275623882,
+      "name": "Improved Medium Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 2109243589,
+      "name": "Improved Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 1179099908,
+      "name": "Improved Small Back Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1693340799,
+      "name": "Improved Small Front Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1971222986,
+      "name": "Improved Small Left Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1961751208,
+      "name": "Improved Small Right Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 987379579,
+      "name": "Improved Small Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1354649501,
+      "name": "Improved Small Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 234025663,
+      "name": "Large Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1055542289,
+      "name": "Medium Back Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1456543784,
+      "name": "Medium Front Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1847665367,
+      "name": "Medium Left Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1724954193,
+      "name": "Medium Right Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 168180536,
+      "name": "Medium Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1354508907,
+      "name": "Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 518358026,
+      "name": "Small Back Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1177626061,
+      "name": "Small Front Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1310481104,
+      "name": "Small Left Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 1446036470,
+      "name": "Small Right Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 232644897,
+      "name": "Small Shield Cell",
+      "type": "Shields"
+    },
+    {
+      "id": 838934763,
+      "name": "Small Shield Generator",
+      "type": "Shields"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "type": "Carrier"
+    },
+    {
+      "id": 489417549,
+      "name": "Improved Light Autogun Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 1736843691,
+      "name": "Improved Light Laser Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 50767260,
+      "name": "Improved Light Plasma Bombers",
+      "type": "Carrier"
+    },
+    {
+      "id": 1976159315,
+      "name": "Light Autogun Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 205047873,
+      "name": "Light Laser Fighters",
+      "type": "Carrier"
+    },
+    {
+      "id": 666455090,
+      "name": "Light Plasma Bombers",
+      "type": "Carrier"
+    },
+    {
+      "id": 2078681722,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 925868828,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 760294280,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1484851200,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1649694316,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 607620989,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 401675674,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 403409980,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 748398376,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 40258208,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 304740748,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1540402205,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1319969241,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1532853003,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 133535811,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 404168899,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 595192331,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 666798832,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
+    }
+  ],
+  "discovery_item": [
+    {
+      "id": 635232752,
+      "name": "Accelerating turbine",
+      "type": "Discovery"
+    },
+    {
+      "id": 1560780144,
+      "name": "Access code B",
+      "type": "Discovery"
+    },
+    {
+      "id": 1361145021,
+      "name": "Access code Y",
+      "type": "Discovery"
+    },
+    {
+      "id": 1351444480,
+      "name": "Access code R",
+      "type": "Discovery"
+    },
+    {
+      "id": 1307445533,
+      "name": "Acids",
+      "type": "Discovery"
+    },
+    {
+      "id": 2128306556,
+      "name": "Active Resonator",
+      "type": "Discovery"
+    },
+    {
+      "id": 1937431386,
+      "name": "Adamantane",
+      "type": "Discovery"
+    },
+    {
+      "id": 682128528,
+      "name": "Adamantane Lens",
+      "type": "Discovery"
+    },
+    {
+      "id": 114949492,
+      "name": "Adaptive Resonator",
+      "type": "Discovery"
+    },
+    {
+      "id": 1027436896,
+      "name": "Advanced Super Conductors",
+      "type": "Discovery"
+    },
+    {
+      "id": 2125462284,
+      "name": "Alloys",
+      "type": "Discovery"
+    },
+    {
+      "id": 1978287836,
+      "name": "Amplified magnetron",
+      "type": "Discovery"
+    },
+    {
+      "id": 2065561219,
+      "name": "Antimatter battery",
+      "type": "Discovery"
+    },
+    {
+      "id": 1300860703,
+      "name": "Arkonit",
+      "type": "Discovery"
+    },
+    {
+      "id": 122493,
+      "name": "Asynchronous radar",
+      "type": "Discovery"
+    },
+    {
+      "id": 1361305023,
+      "name": "Augmetics",
+      "type": "Discovery"
+    },
+    {
+      "id": 1078160256,
+      "name": "Basic Actuators",
+      "type": "Discovery"
+    },
+    {
+      "id": 996368519,
+      "name": "Basic automatics",
+      "type": "Discovery"
+    },
+    {
+      "id": 571394453,
+      "name": "Bazalt",
+      "type": "Discovery"
+    },
+    {
+      "id": 275583600,
+      "name": "Chemical Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 807562499,
+      "name": "Coherent crystal",
+      "type": "Discovery"
+    },
+    {
+      "id": 461399353,
+      "name": "Composite Materials",
+      "type": "Discovery"
+    },
+    {
+      "id": 2068702778,
+      "name": "Console",
+      "type": "Discovery"
+    },
+    {
+      "id": 1464674507,
+      "name": "Production Points Booster",
+      "type": "Discovery"
+    },
+    {
+      "id": 503112805,
+      "name": "Credit Booster",
+      "type": "Discovery"
+    },
+    {
+      "id": 2109542692,
+      "name": "Criterion Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 1485210277,
+      "name": "Deprived Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 1556537320,
+      "name": "Directional explosion system",
+      "type": "Discovery"
+    },
+    {
+      "id": 875040529,
+      "name": "Distorted lens",
+      "type": "Discovery"
+    },
+    {
+      "id": 662710167,
+      "name": "Distortion block",
+      "type": "Discovery"
+    },
+    {
+      "id": 1846790034,
+      "name": "Drone depot",
+      "type": "Discovery"
+    },
+    {
+      "id": 616435244,
+      "name": "Drone parts",
+      "type": "Discovery"
+    },
+    {
+      "id": 1294137744,
+      "name": "Eclipse Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 814891119,
+      "name": "Electromagnetic compensator",
+      "type": "Discovery"
+    },
+    {
+      "id": 1334843590,
+      "name": "Electronics",
+      "type": "Discovery"
+    },
+    {
+      "id": 644759640,
+      "name": "Endurofiber",
+      "type": "Discovery"
+    },
+    {
+      "id": 1160329638,
+      "name": "Expirience Points Booster",
+      "type": "Discovery"
+    },
+    {
+      "id": 1123760629,
+      "name": "Ferrous Metals",
+      "type": "Discovery"
+    },
+    {
+      "id": 1009851599,
+      "name": "Focus circuit",
+      "type": "Discovery"
+    },
+    {
+      "id": 272302102,
+      "name": "Free Traders Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 172990865,
+      "name": "Beta Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 562560570,
+      "name": "Beta Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 952130275,
+      "name": "Gamma Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 1341699980,
+      "name": "Delta Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 1731269685,
+      "name": "Epsilon Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 2120839390,
+      "name": "Zeta Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 362925447,
+      "name": "Eta Warp Stabilizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 1775522251,
+      "name": "Gears",
+      "type": "Discovery"
+    },
+    {
+      "id": 208244519,
+      "name": "Guidance system",
+      "type": "Discovery"
+    },
+    {
+      "id": 750754402,
+      "name": "Heat diffuser",
+      "type": "Discovery"
+    },
+    {
+      "id": 1331683002,
+      "name": "Heavy-Duty Alloys",
+      "type": "Discovery"
+    },
+    {
+      "id": 623930062,
+      "name": "Scrap Metal",
+      "type": "Discovery"
+    },
+    {
+      "id": 1249617459,
+      "name": "Battlecruiser Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 595949901,
+      "name": "Battleship Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 1709058660,
+      "name": "Carrier Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 1463083689,
+      "name": "Cruiser Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 900017837,
+      "name": "Dreadnought Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 896906138,
+      "name": "Frigate Hull",
+      "type": "Discovery"
+    },
+    {
+      "id": 1133688002,
+      "name": "Hangar equipment",
+      "type": "Discovery"
+    },
+    {
+      "id": 834682162,
+      "name": "Ion emitter",
+      "type": "Discovery"
+    },
+    {
+      "id": 1328969032,
+      "name": "Gems",
+      "type": "Discovery"
+    },
+    {
+      "id": 1433945585,
+      "name": "Large Life Support System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 1823515290,
+      "name": "Large Life Support System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 65601347,
+      "name": "Large Life Support System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 455171052,
+      "name": "Large Life Support System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 839831585,
+      "name": "Large Navigation System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 1229401290,
+      "name": "Large Navigation System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 1618970995,
+      "name": "Large Navigation System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 2008540700,
+      "name": "Large Navigation System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 408635649,
+      "name": "Large Power Core Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 798205354,
+      "name": "Large Power Core Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 1187775059,
+      "name": "Large Power Core Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 1577344764,
+      "name": "Large Power Core Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 1303682819,
+      "name": "Launch pad",
+      "type": "Discovery"
+    },
+    {
+      "id": 1700865540,
+      "name": "Machinery parts",
+      "type": "Discovery"
+    },
+    {
+      "id": 1140894832,
+      "name": "Medicine",
+      "type": "Discovery"
+    },
+    {
+      "id": 1698249726,
+      "name": "Medium Life Support System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 2087819431,
+      "name": "Medium Life Support System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 329905488,
+      "name": "Medium Life Support System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 719475193,
+      "name": "Medium Life Support System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 1468047394,
+      "name": "Medium Navigation System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 1857617099,
+      "name": "Medium Navigation System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 99703156,
+      "name": "Medium Navigation System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 489272861,
+      "name": "Medium Navigation System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 1911173486,
+      "name": "Medium Power Core Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 153259543,
+      "name": "Medium Power Core Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 542829248,
+      "name": "Medium Power Core Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 932398953,
+      "name": "Medium Power Core Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 2057184649,
+      "name": "Message Beacon kit",
+      "type": "Discovery"
+    },
+    {
+      "id": 1507847425,
+      "name": "Semi-precious gems",
+      "type": "Discovery"
+    },
+    {
+      "id": 1541462305,
+      "name": "Mineworkers Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 790482913,
+      "name": "Mining Colony Complex",
+      "type": "Discovery"
+    },
+    {
+      "id": 617845420,
+      "name": "Mining Station kit",
+      "type": "Discovery"
+    },
+    {
+      "id": 85074566,
+      "name": "Multithread synchronizer",
+      "type": "Discovery"
+    },
+    {
+      "id": 24406954,
+      "name": "Nano Tools",
+      "type": "Discovery"
+    },
+    {
+      "id": 1137891382,
+      "name": "Alpha Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 1527461087,
+      "name": "Beta Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 1917030792,
+      "name": "Gamma Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 159116849,
+      "name": "Delta Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 548686554,
+      "name": "Epsilon Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 938256259,
+      "name": "Zeta Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 1327825964,
+      "name": "Eta Navigation Data",
+      "type": "Discovery"
+    },
+    {
+      "id": 683225843,
+      "name": "Alfa Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 1072795548,
+      "name": "Beta Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 1462365253,
+      "name": "Gamma Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 1851934958,
+      "name": "Delta Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 94021015,
+      "name": "Epsilon Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 483590720,
+      "name": "Zeta Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 873160425,
+      "name": "Eta Navigation Decoder",
+      "type": "Discovery"
+    },
+    {
+      "id": 1003063083,
+      "name": "Nebulords Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 684682126,
+      "name": "Neitherium",
+      "type": "Discovery"
+    },
+    {
+      "id": 290349861,
+      "name": "Neitherium",
+      "type": "Discovery"
+    },
+    {
+      "id": 1369916874,
+      "name": "Neitherium Energy Cell",
+      "type": "Discovery"
+    },
+    {
+      "id": 1941319335,
+      "name": "Neutron emitter",
+      "type": "Discovery"
+    },
+    {
+      "id": 1066701035,
+      "name": "Noble Gases",
+      "type": "Discovery"
+    },
+    {
+      "id": 270496596,
+      "name": "Nozzles",
+      "type": "Discovery"
+    },
+    {
+      "id": 1364068701,
+      "name": "Nuclear Energy Cell",
+      "type": "Discovery"
+    },
+    {
+      "id": 1593987907,
+      "name": "Oil",
+      "type": "Discovery"
+    },
+    {
+      "id": 284689962,
+      "name": "Optics",
+      "type": "Discovery"
+    },
+    {
+      "id": 106069016,
+      "name": "Semi-poor ore",
+      "type": "Discovery"
+    },
+    {
+      "id": 1957358973,
+      "name": "Semi-rich ore",
+      "type": "Discovery"
+    },
+    {
+      "id": 1661165282,
+      "name": "Rich ore",
+      "type": "Discovery"
+    },
+    {
+      "id": 1397464908,
+      "name": "Poor ore",
+      "type": "Discovery"
+    },
+    {
+      "id": 1816813959,
+      "name": "Overload pattern",
+      "type": "Discovery"
+    },
+    {
+      "id": 560779086,
+      "name": "Passive Resonator",
+      "type": "Discovery"
+    },
+    {
+      "id": 1117780896,
+      "name": "Phase repeater",
+      "type": "Discovery"
+    },
+    {
+      "id": 923893701,
+      "name": "Photon emitter",
+      "type": "Discovery"
+    },
+    {
+      "id": 2045477914,
+      "name": "Plasma Energy Cell",
+      "type": "Discovery"
+    },
+    {
+      "id": 238689122,
+      "name": "Plasma convector",
+      "type": "Discovery"
+    },
+    {
+      "id": 1408075031,
+      "name": "Plastic",
+      "type": "Discovery"
+    },
+    {
+      "id": 1917647525,
+      "name": "Power catalyst",
+      "type": "Discovery"
+    },
+    {
+      "id": 1001959999,
+      "name": "Proton emitter",
+      "type": "Discovery"
+    },
+    {
+      "id": 603314899,
+      "name": "Pulse converter",
+      "type": "Discovery"
+    },
+    {
+      "id": 1051591985,
+      "name": "P.Y.R.A.M.I.D. Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 313896807,
+      "name": "Quantum Computers",
+      "type": "Discovery"
+    },
+    {
+      "id": 814303693,
+      "name": "Quartz Lens",
+      "type": "Discovery"
+    },
+    {
+      "id": 979953940,
+      "name": "Radioactive Metals",
+      "type": "Discovery"
+    },
+    {
+      "id": 1096822680,
+      "name": "Recoil absorber",
+      "type": "Discovery"
+    },
+    {
+      "id": 998333727,
+      "name": "Rocket shaft",
+      "type": "Discovery"
+    },
+    {
+      "id": 1310293910,
+      "name": "Rho-Element",
+      "type": "Discovery"
+    },
+    {
+      "id": 1600587955,
+      "name": "Screechers Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 1317029011,
+      "name": "Ship Slot",
+      "type": "Discovery"
+    },
+    {
+      "id": 1654864443,
+      "name": "Small Life Support System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 2044434148,
+      "name": "Small Life Support System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 286520205,
+      "name": "Small Life Support System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 676089910,
+      "name": "Small Life Support System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 1154891027,
+      "name": "Small Navigation System Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 1544460732,
+      "name": "Small Navigation System Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 1934030437,
+      "name": "Small Navigation System Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 176116494,
+      "name": "Small Navigation System Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 827972619,
+      "name": "Small Power Core Tech Level 1",
+      "type": "Discovery"
+    },
+    {
+      "id": 1217542324,
+      "name": "Small Power Core Tech Level 2",
+      "type": "Discovery"
+    },
+    {
+      "id": 1607112029,
+      "name": "Small Power Core Tech Level 3",
+      "type": "Discovery"
+    },
+    {
+      "id": 1996681734,
+      "name": "Small Power Core Tech Level 4",
+      "type": "Discovery"
+    },
+    {
+      "id": 766162382,
+      "name": "Solid Gas Lens",
+      "type": "Discovery"
+    },
+    {
+      "id": 1442153509,
+      "name": "Space Ship Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 536179472,
+      "name": "Spatial anchor",
+      "type": "Discovery"
+    },
+    {
+      "id": 825677973,
+      "name": "Subatomic Gel",
+      "type": "Discovery"
+    },
+    {
+      "id": 172930241,
+      "name": "Super Computers",
+      "type": "Discovery"
+    },
+    {
+      "id": 432286226,
+      "name": "Super Conductors",
+      "type": "Discovery"
+    },
+    {
+      "id": 1107662618,
+      "name": "Superdense mass condenser",
+      "type": "Discovery"
+    },
+    {
+      "id": 95396690,
+      "name": "Supplies",
+      "type": "Discovery"
+    },
+    {
+      "id": 1580176264,
+      "name": "Suppy Colony Complex",
+      "type": "Discovery"
+    },
+    {
+      "id": 512897032,
+      "name": "Target recognition system",
+      "type": "Discovery"
+    },
+    {
+      "id": 958569038,
+      "name": "Termite mixture",
+      "type": "Discovery"
+    },
+    {
+      "id": 857385940,
+      "name": "Tetragen",
+      "type": "Discovery"
+    },
+    {
+      "id": 697695419,
+      "name": "Thixotropic materials",
+      "type": "Discovery"
+    },
+    {
+      "id": 1844603894,
+      "name": "Threat detection unit",
+      "type": "Discovery"
+    },
+    {
+      "id": 866522466,
+      "name": "Torpedo tube",
+      "type": "Discovery"
+    },
+    {
+      "id": 315949473,
+      "name": "Trunk",
+      "type": "Discovery"
+    },
+    {
+      "id": 760670174,
+      "name": "Vanguard Components",
+      "type": "Discovery"
+    },
+    {
+      "id": 187545695,
+      "name": "Variable phase material",
+      "type": "Discovery"
+    },
+    {
+      "id": 849509975,
+      "name": "Voltage transformer",
+      "type": "Discovery"
+    },
+    {
+      "id": 957183884,
+      "name": "V-field generator",
+      "type": "Discovery"
+    },
+    {
+      "id": 350054493,
+      "name": "Warp Beacon kit",
+      "type": "Discovery"
+    },
+    {
+      "id": 1052888280,
+      "name": "Warp sequencer",
+      "type": "Discovery"
+    },
+    {
+      "id": 1162671583,
+      "name": "Wires",
+      "type": "Discovery"
+    }
+  ]
+}
