@@ -76,6 +76,35 @@ namespace StarfallTactics.StarfallTacticsServers
         }
 
         [StructLayout(LayoutKind.Explicit, Size = 9, Pack = 1)]
+        public struct TextPacket
+        {
+            [FieldOffset(0)]
+            public Header Header;
+
+            [FieldOffset(4)]
+            public int Channel;
+
+            [FieldOffset(8)]
+            public byte Charset;
+
+            public static TextPacket Default => new TextPacket()
+            {
+                Header = new Header() { Id = 85, Size = 9, Cmd = 16 },
+                Channel = 0,
+                Charset = 2
+            };
+
+            public TextPacket(int channel) : this(channel, 0) { }
+
+            public TextPacket(int channel, ushort dataSize)
+            {
+                Header = new Header() { Id = 85, Size = (ushort)(dataSize + 9), Cmd = 16 };
+                Channel = channel;
+                Charset = 2;
+            }
+        }
+
+        [StructLayout(LayoutKind.Explicit, Size = 9, Pack = 1)]
         public struct BinaryPacket
         {
             [FieldOffset(0)]
@@ -94,13 +123,10 @@ namespace StarfallTactics.StarfallTacticsServers
                 Gap8 = 0
             };
 
-            public BinaryPacket(int channel) : this(channel, new byte[0]) { }
+            public BinaryPacket(int channel) : this(channel, 0) { }
 
-            public BinaryPacket(int channel, ushort dataSize) : this(channel, new byte[dataSize]) { }
-
-            public BinaryPacket(int channel, byte[] data)
+            public BinaryPacket(int channel, ushort dataSize)
             {
-                int dataSize = data?.Length ?? 0;
                 Header = new Header() { Id = 85, Size = (ushort)(dataSize + 9), Cmd = 32 };
                 Channel = channel;
                 Gap8 = 0;
