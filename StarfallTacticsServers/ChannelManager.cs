@@ -60,7 +60,6 @@ namespace StarfallTactics.StarfallTacticsServers
                     Array.Copy(buffer, 5, binaryPacketData, 0, binaryPacketData.Length);
                     Log($"Bytes({BitConverter.ToString(buffer).Replace("-", "")})");
                     GetChannelById(binaryPacket.Channel)?.Input(binaryPacketData);
-                    HandleBinary(client, binaryPacket, binaryPacketData);
                     break;
                 default:
                     string textRequest = Encoding.UTF8.GetString(buffer).Replace("\0", "");
@@ -133,19 +132,6 @@ namespace StarfallTactics.StarfallTacticsServers
 
 
                 channel.Register();
-                //SFCP.Header outHeader = SFCP.Header.Default;
-                //byte[] outData = new byte[69];
-
-                //outHeader.Cmd = 2;
-                //outHeader.Size = 73;
-                //outData[0] = 0;
-
-                //BitConverter.GetBytes(id).CopyTo(outData, 1);
-                //Encoding.UTF8.GetBytes(channelName).CopyTo(outData, 5);
-
-                //PacketHandler.Write(stream, outHeader, outData);
-                //OnChannelRegister(new ChannelRegisterEventArgs(channelName, id));
-                //Log($"Response: (Channel = {channelName}, Id = {id})");
             });
         }
 
@@ -170,11 +156,6 @@ namespace StarfallTactics.StarfallTacticsServers
         protected virtual string GetChannelName(int id) => GetChannelById(id)?.Name ?? null;
 
         protected virtual int GetChannelId(string name) => GetChannelByName(name)?.Id ?? -1;
-
-        public virtual void HandleBinary(TcpClient client, SFCP.BinaryPacket packet, byte[] data)
-        {
-
-        }
 
         public virtual void Send(SFCP.Header header)
         {
