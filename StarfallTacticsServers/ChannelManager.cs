@@ -43,24 +43,29 @@ namespace StarfallTactics.StarfallTacticsServers
                 case 1:
                     HandleUserAuth(client, header, buffer);
                     break;
+
                 case 2:
                     string channel = Encoding.UTF8.GetString(buffer, 0, Math.Min(buffer.Length, 64)).Trim('\0');
                     HandleChannelRegister(client, header, channel);
                     break;
+
                 case 4:
                     HandleInstanceAuth(client, header, buffer);
                     break;
+
+                case 16:
+                    string textPacketData = Encoding.Unicode.GetString(buffer, 5, header.Size - 5);
+                    Log($"Text({textPacketData})");
+                    GetChannelById(BitConverter.ToInt32(buffer, 0))?.Input(textPacketData);
+                    break;
+
                 case 32:
-                    SFCP.BinaryPacket binaryPacket = SFCP.BinaryPacket.Default;
-                    binaryPacket.Header = header;
-                    binaryPacket.Header.Size = (ushort)Math.Max(0, binaryPacket.Header.Size - 5);
-                    binaryPacket.Channel = BitConverter.ToInt32(buffer, 0);
-                    binaryPacket.Gap8 = buffer[4];
-                    byte[] binaryPacketData = new byte[binaryPacket.Header.Size];
+                    byte[] binaryPacketData = new byte[header.Size - 5];
                     Array.Copy(buffer, 5, binaryPacketData, 0, binaryPacketData.Length);
                     Log($"Bytes({BitConverter.ToString(buffer).Replace("-", "")})");
-                    GetChannelById(binaryPacket.Channel)?.Input(binaryPacketData);
+                    GetChannelById(BitConverter.ToInt32(buffer, 0))?.Input(binaryPacketData);
                     break;
+
                 default:
                     string textRequest = Encoding.UTF8.GetString(buffer).Replace("\0", "");
                     string binaryRequest = BitConverter.ToString(buffer).Replace("-", "");
