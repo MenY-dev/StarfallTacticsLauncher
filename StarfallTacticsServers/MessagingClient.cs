@@ -91,14 +91,15 @@ namespace StarfallTactics.StarfallTacticsServers
                     HandleConnection(Client, cancellationToken);
 
                     cancellationToken.ThrowIfCancellationRequested();
-
-                    Disconnect();
                 }
                 catch (Exception e)
                 {
                     if (cancellationToken.IsCancellationRequested == false)
                         Log($"Error!\r\n{e}");
                 }
+
+                if (cancellationToken.IsCancellationRequested)
+                    break;
 
                 Disconnect();
                 Thread.Sleep(1000);
