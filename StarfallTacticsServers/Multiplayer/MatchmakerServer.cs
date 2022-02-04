@@ -141,10 +141,9 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             if (doc is null || player is null)
                 return;
 
-            string name = player.Name;
             string msg = (string)doc["msg"];
 
-            if (msg is null || name is null)
+            if (msg is null)
                 return;
 
             Task.Factory.StartNew(() =>
@@ -153,9 +152,9 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                 {
                     item?.Send(PacketType.Chat, new JsonObject
                     {
-                        ["id"] = item.Id,
-                        ["auth"] = item.Auth,
-                        ["name"] = name,
+                        ["id"] = player.Id,
+                        ["auth"] = player.Auth,
+                        ["name"] = player.Name,
                         ["msg"] = msg
                     });
                 }
