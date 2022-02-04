@@ -85,9 +85,6 @@ namespace StarfallTactics.StarfallTacticsServers
                     Client = new TcpClient();
                     await Client.ConnectAsync(address, port);
 
-                    if (cancellationToken.IsCancellationRequested)
-                        return;
-
                     cancellationToken.ThrowIfCancellationRequested();
 
                     Log($"Connected! ({Client.Client.RemoteEndPoint})");
