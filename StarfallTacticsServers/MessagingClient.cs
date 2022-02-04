@@ -88,7 +88,7 @@ namespace StarfallTactics.StarfallTacticsServers
                     cancellationToken.ThrowIfCancellationRequested();
 
                     Log($"Connected! ({Client.Client.RemoteEndPoint})");
-                    HandleConnection(Client);
+                    HandleConnection(Client, cancellationToken);
 
                     cancellationToken.ThrowIfCancellationRequested();
 
@@ -106,10 +106,11 @@ namespace StarfallTactics.StarfallTacticsServers
             }
         }
 
-        protected virtual void HandleConnection(TcpClient client)
+        protected virtual void HandleConnection(TcpClient client, CancellationToken cancellationToken)
         {
             while (client?.Connected == true)
             {
+                cancellationToken.ThrowIfCancellationRequested();
                 string packet = MessagingPacket.Receive(client);
 
                 if (string.IsNullOrWhiteSpace(packet) == false)
