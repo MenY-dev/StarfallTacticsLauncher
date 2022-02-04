@@ -42,7 +42,6 @@ namespace StarfallTactics.StarfallTacticsServers
             string[] addressData = address.Split(':');
 
             CancellationToken = new CancellationTokenSource();
-            Client = new TcpClient();
             IsStarded = true;
 
             Task.Run(() => ConnectToServerAsync(
@@ -70,43 +69,41 @@ namespace StarfallTactics.StarfallTacticsServers
             try
             {
                 CancellationToken.Cancel();
-
-                if (Client != null && Client.Client != null)
-                {
-                    Client.Close();
-                }
+                Disconnect();
             }
             catch { }
         }
 
         protected virtual async Task ConnectToServerAsync(string address, int port, CancellationToken cancellationToken)
         {
-            while (IsStarded && (Client is null) == false && cancellationToken.IsCancellationRequested == false)
+            while (IsStarded && cancellationToken.IsCancellationRequested == false)
             {
                 try
                 {
                     Log("Listening...");
+
+                    Client = new TcpClient();
                     await Client.ConnectAsync(address, port);
 
                     if (cancellationToken.IsCancellationRequested)
                         return;
 
+                    cancellationToken.ThrowIfCancellationRequested();
+
                     Log($"Connected! ({Client.Client.RemoteEndPoint})");
                     HandleConnection(Client);
 
-                    if (cancellationToken.IsCancellationRequested)
-                        return;
+                    cancellationToken.ThrowIfCancellationRequested();
 
-                    Client.Close();
+                    Disconnect();
                 }
                 catch (Exception e)
                 {
-                    if (cancellationToken.IsCancellationRequested)
-                        return;
-
-                    Log($"Error!\r\n{e}");
+                    if (cancellationToken.IsCancellationRequested == false)
+                        Log($"Error!\r\n{e}");
                 }
 
+                Disconnect();
                 Thread.Sleep(1000);
                 Log($"Reconnect...");
             }
@@ -116,12 +113,10 @@ namespace StarfallTactics.StarfallTacticsServers
         {
             while (client?.Connected == true)
             {
-                string packet;
-
-                packet = MessagingPacket.Receive(Client);
+                string packet = MessagingPacket.Receive(client);
 
                 if (string.IsNullOrWhiteSpace(packet) == false)
-                    HandleInputPacket(Client, packet);
+                    HandleInputPacket(client, packet);
             }
         }
 
@@ -130,9 +125,17 @@ namespace StarfallTactics.StarfallTacticsServers
 
         }
 
+        protected void Disconnect()
+        {
+            if (Client?.Client != null)
+            {
+                Client.Close();
+            }
+        }
+
         public virtual void Send(string packet)
         {
-            if (Client.Connected == true)
+            if (Client?.Connected == true)
             {
                 try
                 {
