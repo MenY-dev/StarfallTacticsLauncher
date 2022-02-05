@@ -640,7 +640,7 @@ namespace StarfallTactics.StarfallTacticsLauncher
             this.LogOutput.ReadOnly = true;
             this.LogOutput.Size = new System.Drawing.Size(376, 359);
             this.LogOutput.TabIndex = 0;
-            this.LogOutput.Text = "Version 0.1.5";
+            this.LogOutput.Text = "Version 0.1.6";
             // 
             // panel15
             // 
