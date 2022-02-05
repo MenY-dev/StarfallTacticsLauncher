@@ -35,7 +35,7 @@ namespace StarfallTactics.StarfallTacticsServers
                 {
                     case "auth":
                     case "authcompletion":
-                        SendMatchmakerAuth();
+                        PlayerServer?.SendMatchmakerAuth();
                         response = JsonSerializer.SerializeToNode(new MgrAuthResponse("127.0.0.1", "1200"));
                         break;
 
@@ -125,19 +125,6 @@ namespace StarfallTactics.StarfallTacticsServers
 
             if ((response is null) == false)
                 SendResponse(context, response);
-        }
-
-        protected void SendMatchmakerAuth()
-        {
-            Character character = Profile.CurrentCharacter;
-
-            if (character is null)
-                return;
-
-            Matchmaker?.Send(PacketType.AuthRequest, new JsonObject
-            {
-                ["name"] = character.Name,
-            });
         }
     }
 }

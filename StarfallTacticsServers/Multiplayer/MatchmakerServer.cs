@@ -67,6 +67,8 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                 }
             }
 
+            player?.Send(PacketType.AuthRequest, new JsonObject { });
+
             base.HandleClient(client);
 
             lock (Locker)
@@ -88,7 +90,7 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     Log($"Text Received: \"{packet}\"");
                     break;
 
-                case PacketType.AuthRequest:
+                case PacketType.PlayerAuth:
                     HandlePlayerAuth(client, doc);
                     break;
 
@@ -135,7 +137,7 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
             Log($"Auth: (Name = {playerName}, Id = {player.Id})");
 
-            player.Send(PacketType.AuthResponse, new JsonObject
+            player.Send(PacketType.PlayerAuthResponse, new JsonObject
             {
                 ["id"] = player.Id,
                 ["auth"] = player.Auth

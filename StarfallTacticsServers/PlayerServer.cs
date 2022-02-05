@@ -93,14 +93,20 @@ namespace StarfallTactics.StarfallTacticsServers
             if (doc?.Document is null)
                 return;
 
+            Log($"Matchmaker Response: (Type = {doc.Type})");
+
             switch (doc.Type)
             {
                 case PacketType.None:
                     Log($"Text Received: \"{doc.ParceDocument<string>()}\"");
                     break;
 
-                case PacketType.AuthResponse:
+                case PacketType.PlayerAuthResponse:
                     HandlePlayerAuthResponse(doc);
+                    break;
+
+                case PacketType.AuthRequest:
+                    HandleAuthRequest(doc);
                     break;
 
                 case PacketType.Battle:
@@ -116,12 +122,25 @@ namespace StarfallTactics.StarfallTacticsServers
             }
         }
 
+        public virtual void SendMatchmakerAuth()
+        {
+            Matchmaker?.Send(PacketType.PlayerAuth, new JsonObject
+            {
+                ["name"] = Profile.Nickname,
+            });
+        }
+
         protected virtual void HandlePlayerAuthResponse(MatchmakerPacket doc)
         {
             JsonNode response = doc.Document;
 
             MatchmakerId = (int)response["id"];
             MatchmakerAuth = (string)response["auth"];
+        }
+
+        protected virtual void HandleAuthRequest(MatchmakerPacket doc)
+        {
+            SendMatchmakerAuth();
         }
 
         protected virtual void HandleBattle(JsonNode doc)
