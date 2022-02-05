@@ -134,7 +134,7 @@ namespace StarfallTactics.StarfallTacticsServers
             if (character is null)
                 return;
 
-            Matchmaker?.Send(PacketType.Auth, new JsonObject
+            Matchmaker?.Send(PacketType.AuthRequest, new JsonObject
             {
                 ["name"] = character.Name,
             });

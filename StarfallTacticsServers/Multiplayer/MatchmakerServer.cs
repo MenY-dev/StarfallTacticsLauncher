@@ -43,29 +43,38 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
             lock (Locker)
             {
-                int id = CreateId();
+                IPEndPoint endPoint = client?.Client.RemoteEndPoint as IPEndPoint;
+                player = GetPlayer(endPoint?.Address);
+                Log($"Client: (Id = {player?.Id}, Name = {player?.Name})");
 
-                player = new Player
+                if (player is null)
                 {
-                    Client = client,
-                    Id = id,
-                    Auth = Guid.NewGuid().ToString("N")
-            };
+                    int id = CreateId();
 
-                Players.Add(player);
+                    player = new Player
+                    {
+                        Client = client,
+                        Id = id,
+                        Auth = Guid.NewGuid().ToString("N")
+                    };
+
+                    Players.Add(player);
+                }
+                else
+                {
+                    player.Client = client;
+                    Log($"Reconnect: (Id = {player.Id}, Name = {player.Name})");
+                }
             }
 
             base.HandleClient(client);
 
             lock (Locker)
             {
-                if (Players.Contains(player))
-                    Players.Remove(player);
-
                 OnPlayerLeaves(new PlayerEventArgs(player));
             }
         }
-
+         
         protected override void HandleInputPacket(TcpClient client, string packet)
         {
             MatchmakerPacket doc = MatchmakerPacket.Parce(packet);
@@ -79,7 +88,7 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     Log($"Text Received: \"{packet}\"");
                     break;
 
-                case PacketType.Auth:
+                case PacketType.AuthRequest:
                     HandlePlayerAuth(client, doc);
                     break;
 
@@ -206,6 +215,23 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             foreach (var item in Players)
                 if (item.Auth == auth)
                     return item;
+
+            return null;
+        }
+
+
+        public virtual Player GetPlayer(IPAddress address)
+        {
+            if (address is null)
+                return null;
+
+            foreach (var item in Players)
+            {
+                IPEndPoint endPoint = item?.Client?.Client.RemoteEndPoint as IPEndPoint;
+
+                if (endPoint?.Address.Equals(address) == true)
+                    return item;
+            }
 
             return null;
         }

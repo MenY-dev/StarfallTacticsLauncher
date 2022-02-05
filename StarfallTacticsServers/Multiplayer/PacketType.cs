@@ -3,7 +3,7 @@
     public enum PacketType : int
     {
         None = 0,
-        Auth = 1,
+        AuthRequest = 1,
         AuthResponse = 2,
         Battle = 3,
         Chat = 4
