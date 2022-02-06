@@ -98,11 +98,17 @@ namespace StarfallTactics.StarfallTacticsServers
             if (request is null || character is null)
                 return new JsonObject { ["ok"] = 0 };
 
-            int shipId = (int)(request["elid"] ?? -1);
+            int shipId = (int?)request["elid"] ?? -1;
             Ship ship = character.GetShip(shipId);
 
             if (ship is null)
                 return new JsonObject { ["ok"] = 0 };
+
+            ship.ShipSkin = (int?)request["ship_skin"] ?? 0;
+            ship.SkinColor1 = (int?)request["skin_color_1"] ?? 0;
+            ship.SkinColor2 = (int?)request["skin_color_2"] ?? 0;
+            ship.SkinColor3 = (int?)request["skin_color_3"] ?? 0;
+            ship.ShipDecal = (int?)request["shipdecal"] ?? 0;
 
             JsonArray hardpoints = request["hplist"]?.AsArray();
 
@@ -123,9 +129,9 @@ namespace StarfallTactics.StarfallTacticsServers
                     {
                         equipments.Add(new HardpointEquipment
                         {
-                            Equipment = (int)(eqItem["eq"] ?? -1),
-                            X = (int)(eqItem["x"] ?? 0),
-                            Y = (int)(eqItem["y"] ?? 0)
+                            Equipment = (int?)eqItem["eq"] ?? -1,
+                            X = (int?)eqItem["x"] ?? 0,
+                            Y = (int?)eqItem["y"] ?? 0
                         });
                     }
 
@@ -147,8 +153,8 @@ namespace StarfallTactics.StarfallTacticsServers
                 {
                     ship.Progression.Add(new ShipProgression
                     {
-                        Id = (int)(item["id"] ?? -1),
-                        Points = (int)(item["points"] ?? 0),
+                        Id = (int?)item["id"] ?? -1,
+                        Points = (int?)item["points"] ?? 0,
                     });
                 }
             }

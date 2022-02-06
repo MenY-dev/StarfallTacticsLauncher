@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StarfallTactics.StarfallTacticsServers.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,9 @@ namespace StarfallTactics.StarfallTacticsServers
 
         [JsonIgnore]
         public Character CurrentCharacter { get; set; } = null;
+
+        [JsonIgnore]
+        public StarfallDatabase Database { get; set; } = null;
 
         public event EventHandler<EventArgs> Edited;
 

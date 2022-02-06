@@ -54,6 +54,21 @@ namespace StarfallTactics.StarfallTacticsServers
         [JsonPropertyName("is_favorite")]
         public int IsFavorite { get; set; } = 0;
 
+        [JsonPropertyName("ship_skin")]
+        public int ShipSkin { get; set; } = 0;
+
+        [JsonPropertyName("skin_color_1")]
+        public int SkinColor1 { get; set; } = 0;
+
+        [JsonPropertyName("skin_color_2")]
+        public int SkinColor2 { get; set; } = 0;
+
+        [JsonPropertyName("skin_color_3")]
+        public int SkinColor3 { get; set; } = 0;
+
+        [JsonPropertyName("shipdecal")]
+        public int ShipDecal { get; set; } = 0;
+
         [JsonPropertyName("hplist")]
         public List<ShipHardpoint> HardpointList { get; set; } = new List<ShipHardpoint>();
 

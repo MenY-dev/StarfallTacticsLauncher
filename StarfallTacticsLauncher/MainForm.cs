@@ -417,6 +417,7 @@ namespace StarfallTactics.StarfallTacticsLauncher
             StarfallProfile profile = new StarfallProfile();
             Character character = new Character();
             profile.CharacterModeProfile.Chars.Add(character);
+            profile.Database = Database;
 
             foreach (var item in Database.Items)
             {
@@ -428,7 +429,7 @@ namespace StarfallTactics.StarfallTacticsLauncher
                 character.AddInventoryItem(item.Hull, 9999999, 0);
             }
 
-            foreach (var item in Database.DiscoveryItem)
+            foreach (var item in Database.DiscoveryItems)
             {
                 character.AddInventoryItem(item.Id, 99999, 3);
             }
@@ -451,6 +452,7 @@ namespace StarfallTactics.StarfallTacticsLauncher
                 {
                     string doc = File.ReadAllText(path);
                     Profile = JsonSerializer.Deserialize<StarfallProfile>(doc) ?? CreateNewProfile();
+                    Profile.Database = Database;
                 }
 
                 if (Profile?.CharacterModeProfile?.Chars?.Count > 0)

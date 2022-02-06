@@ -15,7 +15,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         public JsonNode CreateAllMyPropertyResponse()
         {
-            return new JsonObject
+            JsonNode doc = new JsonObject
             {
                 ["u_bm"] = 1,
                 ["u_sfc"] = 999999999,
@@ -25,9 +25,79 @@ namespace StarfallTactics.StarfallTacticsServers
                 ["drop_ship_progression_param_igc"] = 23,
                 ["production_points_cost_60_sfc"] = 34,
                 ["production_points_cost_60_igc"] = 45,
-                ["rush_open_weekly_reward"] = 56,
-                ["shop_items"] = new JsonArray()
+                ["rush_open_weekly_reward"] = 56
             };
+
+            JsonArray shopItems = new JsonArray();
+            JsonArray availableSkinColors = new JsonArray();
+            JsonArray availableShipDecals = new JsonArray();
+            JsonArray availableShipSkins = new JsonArray();
+
+            if ((Database is null) == false)
+            {
+                int id = -1;
+
+                foreach (var item in Database.SkinColors)
+                {
+                    id++;
+
+                    shopItems.Add(new JsonObject
+                    {
+                        ["id"] = id,
+                        ["name"] = item.Name,
+                        ["description"] = "Color",
+                        ["itemtype"] = 0,
+                        ["igcprice"] = 100,
+                        ["itemtypespecificjson"] = new JsonObject()
+                        {
+                            ["skincolor_id"] = item.Id
+                        }.ToJsonString()
+                    });
+
+                    availableSkinColors.Add(new JsonObject
+                    {
+                        ["id"] = item.Id
+                    });
+                }
+
+                foreach (var item in Database.ShipSkins)
+                {
+                    availableShipSkins.Add(new JsonObject
+                    {
+                        ["id"] = item.Id
+                    });
+                }
+
+                foreach (var item in Database.ShipDecals)
+                {
+                    id++;
+
+                    shopItems.Add(new JsonObject
+                    {
+                        ["id"] = id,
+                        ["name"] = item.Name,
+                        ["description"] = "Decal",
+                        ["itemtype"] = 2,
+                        ["igcprice"] = 100,
+                        ["itemtypespecificjson"] = new JsonObject()
+                        {
+                            ["decal_id"] = item.Id
+                        }.ToJsonString()
+                    });
+
+                    availableShipDecals.Add(new JsonObject
+                    {
+                        ["id"] = item.Id
+                    });
+                }
+            }
+
+            doc["shop_items"] = shopItems;
+            doc["available_skincolors"] = availableSkinColors;
+            doc["available_decals"] = availableShipDecals;
+            doc["available_shipskins"] = availableShipSkins;
+
+            return doc;
         }
 
         public JsonNode CreateRealmsResponse()
@@ -365,6 +435,11 @@ namespace StarfallTactics.StarfallTacticsServers
             {
                 ["hull"] = ship.Hull,
                 ["elid"] = ship.Id,
+                ["ship_skin"] = ship.ShipSkin,
+                ["skin_color_1"] = ship.SkinColor1,
+                ["skin_color_2"] = ship.SkinColor2,
+                ["skin_color_3"] = ship.SkinColor3,
+                ["shipdecal"] = ship.ShipDecal,
             };
 
             JsonArray hardpoints = new JsonArray();
