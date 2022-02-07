@@ -218,7 +218,7 @@ namespace StarfallTactics.StarfallTacticsServers.Instances
         {
             string arguments = ""
 
-            + $"/Game/Maps/{instance.InstanceMap}?Listen"
+            + $"/Game/Maps/{instance.InstanceMap}?Listen?FSpawnTime=120?SNSpawnTime=120"
             + $" -port={instance.InstancePort}"
             + " -messaging"
             + " -windowed"
