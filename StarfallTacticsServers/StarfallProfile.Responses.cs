@@ -414,7 +414,7 @@ namespace StarfallTactics.StarfallTacticsServers
                 ["woncount"] = ship.WonCount,
                 ["lostcount"] = ship.LostCount,
                 ["xp"] = ship.Xp,
-                ["level"] = ship.Level,
+                ["level"] = 30,
                 ["damagedone"] = ship.DamageDone,
                 ["damagetaken"] = ship.DamageTaken,
                 ["timetoconstruct"] = ship.TimeToConstruct,

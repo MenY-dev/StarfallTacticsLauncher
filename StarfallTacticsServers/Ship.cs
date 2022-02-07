@@ -37,7 +37,7 @@ namespace StarfallTactics.StarfallTacticsServers
         public int Xp { get; set; } = 999999999;
 
         [JsonPropertyName("level")]
-        public int Level { get; set; } = 20;
+        public int Level { get; set; } = 30;
 
         [JsonPropertyName("damagedone")]
         public int DamageDone { get; set; } = 999;
