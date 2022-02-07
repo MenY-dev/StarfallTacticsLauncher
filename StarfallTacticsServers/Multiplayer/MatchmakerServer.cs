@@ -45,7 +45,6 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             {
                 IPEndPoint endPoint = client?.Client.RemoteEndPoint as IPEndPoint;
                 player = GetPlayer(endPoint?.Address);
-                Log($"Client: (Id = {player?.Id}, Name = {player?.Name})");
 
                 if (player is null)
                 {
@@ -66,8 +65,6 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     Log($"Reconnect: (Id = {player.Id}, Name = {player.Name})");
                 }
             }
-
-            player?.Send(PacketType.AuthRequest, new JsonObject { });
 
             base.HandleClient(client);
 
@@ -135,13 +132,14 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
             player.Name = playerName;
 
-            Log($"Auth: (Name = {playerName}, Id = {player.Id})");
-
             player.Send(PacketType.PlayerAuthResponse, new JsonObject
             {
                 ["id"] = player.Id,
                 ["auth"] = player.Auth
             });
+
+            Log($"Auth: (Name = {playerName}, Id = {player.Id})");
+            SendPlayerConnectionMessage(player);
         }
 
         protected void HandleChat(TcpClient client, MatchmakerPacket packet)
@@ -171,6 +169,33 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     });
                 }
             });
+        }
+
+        public void SendSystemMessage(string msg)
+        {
+            Task.Factory.StartNew(() =>
+            {
+                foreach (var item in Players)
+                    SendSystemMessage(item, msg);
+            });
+        }
+
+        public void SendSystemMessage(Player player, string msg)
+        {
+            player?.Send(PacketType.SystemMessage, new JsonObject
+            {
+                ["id"] = player.Id,
+                ["auth"] = player.Auth,
+                ["msg"] = msg
+            });
+        }
+
+        public void SendPlayerConnectionMessage(Player player)
+        {
+            if (string.IsNullOrWhiteSpace(player?.Name))
+                return;
+
+            SendSystemMessage($"{player.Name} has joined!");
         }
 
         public static void Send(TcpClient client, PacketType packetType, JsonNode packet)

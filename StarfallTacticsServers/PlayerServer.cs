@@ -115,7 +115,11 @@ namespace StarfallTactics.StarfallTacticsServers
                     break;
 
                 case PacketType.Chat:
-                    HandleStartChat(doc.Document);
+                    HandleChat(doc.Document);
+                    break;
+
+                case PacketType.SystemMessage:
+                    HandleSystemMessage(doc.Document);
                     break;
 
                 default:
@@ -184,7 +188,7 @@ namespace StarfallTactics.StarfallTacticsServers
                 (string)doc["battle_auth"]);
         }
 
-        protected virtual void HandleStartChat(JsonNode doc)
+        protected virtual void HandleChat(JsonNode doc)
         {
             TextChatChannel channel = SfMgrChannels.GetChannelByName("GeneralTextChat") as TextChatChannel;
 
@@ -195,6 +199,19 @@ namespace StarfallTactics.StarfallTacticsServers
                 (string)doc["name"],
                 (string)doc["msg"],
                 false);
+        }
+
+        protected virtual void HandleSystemMessage(JsonNode doc)
+        {
+            TextChatChannel channel = SfMgrChannels.GetChannelByName("GeneralTextChat") as TextChatChannel;
+
+            if (doc is null || channel is null)
+                return;
+
+            channel.SendMessage(
+                "SERVER",
+                (string)doc["msg"],
+                true);
         }
     }
 }

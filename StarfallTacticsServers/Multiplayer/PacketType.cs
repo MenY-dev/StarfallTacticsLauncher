@@ -7,6 +7,7 @@
         PlayerAuthResponse = 2,
         AuthRequest = 3,
         Battle = 4,
-        Chat = 5
+        Chat = 5,
+        SystemMessage = 6
     }
 }
