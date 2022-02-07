@@ -96,7 +96,10 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                 playerIndex++;
             }
 
-            BattleInstance instance = new BattleInstance("bg_MothershipAssault", characters);
+            BattleInstance instance = new BattleInstance(
+                new Random().Next() % 2 == 0 ? "bg_MothershipAssault" : "bg_MothershipAssault_2",
+                characters);
+
             room.Instance = instance;
             instance.StateChanged += OnInstanceStateChanged;
             InstanceManager.StartInstance(instance);
