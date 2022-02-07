@@ -14,10 +14,10 @@ namespace StarfallTactics.StarfallTacticsServers
     {
         public StarfallProfile Profile { get; set; }
         public SfMgrServer SfMgrServer { get; protected set; }
-        public SfMgrChannelManager SfMgrChannel { get; protected set; }
+        public SfMgrChannelManager SfMgrChannels { get; protected set; }
         public RealmMgrServer RealmMgrServer { get; protected set; }
-        public RealmMgrChannelManager RealmMgrChannel { get; protected set; }
-        public GalaxyMgrChannel GalaxyMgrChannel { get; protected set; }
+        public RealmMgrChannelManager RealmMgrChannels { get; protected set; }
+        public GalaxyMgrChannel GalaxyMgrChannels { get; protected set; }
         public MatchmakerClient Matchmaker{ get; protected set; }
 
         public string MatchmakerAddress { get; set; } = "127.0.0.1:1300";
@@ -32,17 +32,17 @@ namespace StarfallTactics.StarfallTacticsServers
             if (SfMgrServer is null)
                 SfMgrServer = new SfMgrServer();
 
-            if (SfMgrChannel is null)
-                SfMgrChannel = new SfMgrChannelManager();
+            if (SfMgrChannels is null)
+                SfMgrChannels = new SfMgrChannelManager();
 
             if (RealmMgrServer is null)
                 RealmMgrServer = new RealmMgrServer();
 
-            if (RealmMgrChannel is null)
-                RealmMgrChannel = new RealmMgrChannelManager();
+            if (RealmMgrChannels is null)
+                RealmMgrChannels = new RealmMgrChannelManager();
 
-            if (GalaxyMgrChannel is null)
-                GalaxyMgrChannel = new GalaxyMgrChannel();
+            if (GalaxyMgrChannels is null)
+                GalaxyMgrChannels = new GalaxyMgrChannel();
 
             if (Matchmaker is null)
             {
@@ -51,23 +51,24 @@ namespace StarfallTactics.StarfallTacticsServers
             }
 
             SfMgrServer.PlayerServer = this;
+            SfMgrChannels.PlayerServer = this;
             RealmMgrServer.PlayerServer = this;
-            RealmMgrChannel.PlayerServer = this;
+            RealmMgrChannels.PlayerServer = this;
 
             SfMgrServer.Address = "http://127.0.0.1:1500/sfmgr/";
-            SfMgrChannel.Address = "127.0.0.1:1000";
+            SfMgrChannels.Address = "127.0.0.1:1000";
             RealmMgrServer.Address = "http://127.0.0.1:1500/realmmgr/";
-            RealmMgrChannel.Address = "127.0.0.1:1200";
-            GalaxyMgrChannel.Address = "127.0.0.1:1100";
+            RealmMgrChannels.Address = "127.0.0.1:1200";
+            GalaxyMgrChannels.Address = "127.0.0.1:1100";
             Matchmaker.Address = MatchmakerAddress;
 
             IsStarded = true;
 
             SfMgrServer.Start();
-            SfMgrChannel.Start();
+            SfMgrChannels.Start();
             RealmMgrServer.Start();
-            RealmMgrChannel.Start();
-            GalaxyMgrChannel.Start();
+            RealmMgrChannels.Start();
+            GalaxyMgrChannels.Start();
             Matchmaker.Start();
         }
 
@@ -77,10 +78,10 @@ namespace StarfallTactics.StarfallTacticsServers
                 return;
 
             SfMgrServer?.Stop();
-            SfMgrChannel?.Stop();
+            SfMgrChannels?.Stop();
             RealmMgrServer?.Stop();
-            RealmMgrChannel?.Stop();
-            GalaxyMgrChannel?.Stop();
+            RealmMgrChannels?.Stop();
+            GalaxyMgrChannels?.Stop();
             Matchmaker.Stop();
 
             IsStarded = false;
@@ -162,7 +163,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         protected virtual void HandleBattleFound(JsonNode doc)
         {
-            BattleGroundChannel channel = RealmMgrChannel.GetChannelByName("BattleGround") as BattleGroundChannel;
+            BattleGroundChannel channel = RealmMgrChannels.GetChannelByName("BattleGround") as BattleGroundChannel;
 
             if (channel is null)
                 return;
@@ -172,7 +173,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         protected virtual void HandleStartBattle(JsonNode doc)
         {
-            BattleGroundChannel channel = RealmMgrChannel.GetChannelByName("BattleGround") as BattleGroundChannel;
+            BattleGroundChannel channel = RealmMgrChannels.GetChannelByName("BattleGround") as BattleGroundChannel;
 
             if (doc is null || channel is null)
                 return;
@@ -185,7 +186,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         protected virtual void HandleStartChat(JsonNode doc)
         {
-            TextChatChannel channel = SfMgrChannel.GetChannelByName("GeneralTextChat") as TextChatChannel;
+            TextChatChannel channel = SfMgrChannels.GetChannelByName("GeneralTextChat") as TextChatChannel;
 
             if (doc is null || channel is null)
                 return;
