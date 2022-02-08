@@ -93,6 +93,10 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     HandlePlayerAuth(client, doc);
                     break;
 
+                case PacketType.PlayerJoined:
+                    HandlePlayerJoined(client, doc);
+                    break;
+
                 case PacketType.Battle:
                     HandleBattle(client, doc);
                     break;
@@ -141,6 +145,17 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             });
 
             Log($"Auth: (Name = {playerName}, Id = {player.Id})");
+        }
+
+        protected void HandlePlayerJoined(TcpClient client, MatchmakerPacket packet)
+        {
+            Player player = GetPlayer(client);
+            string playerName = (string)packet.Document["name"];
+
+            if (player is null || player.Id < 0 || string.IsNullOrWhiteSpace(playerName))
+                return;
+
+            Log($"Player Joined: (Name = {playerName}, Id = {player.Id})");
             SendPlayerConnectionMessage(player);
         }
 
