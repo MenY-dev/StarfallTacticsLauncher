@@ -24,7 +24,7 @@ namespace StarfallTactics.StarfallTacticsServers
                 return Profile.CreateCraftingResponse(new int[0], new int[0]);
 
             IEnumerable<int> newCrafts = new int[0];
-            CraftingInfo craftingInfo = Profile.CurrentCharacter?.AddCraftingItem(entity);
+            CraftingInfo craftingInfo = character?.AddCraftingItem(entity);
 
             if ((craftingInfo is null) == false)
             {
@@ -99,7 +99,11 @@ namespace StarfallTactics.StarfallTacticsServers
                 return new JsonObject { ["ok"] = 0 };
 
             int shipId = (int?)request["elid"] ?? -1;
-            Ship ship = character.GetShip(shipId);
+
+            if (shipId < Profile.IndexSpace)
+                return new JsonObject { ["ok"] = 0 };
+
+            Ship ship = character.GetShip(shipId - Profile.IndexSpace);
 
             if (ship is null)
                 return new JsonObject { ["ok"] = 0 };
@@ -169,10 +173,10 @@ namespace StarfallTactics.StarfallTacticsServers
         {
             int id = (int?)query["elid"] ?? -1;
 
-            if (character is null || id < 0)
+            if (character is null || id < Profile.IndexSpace)
                 return new JsonObject { ["ok"] = 0};
 
-            character.DeleteShip(id);
+            character.DeleteShip(id - Profile.IndexSpace);
 
             return new JsonObject { ["ok"] = 1 };
         }

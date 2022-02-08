@@ -29,17 +29,17 @@ namespace StarfallTactics.StarfallTacticsServers
                 try
                 {
                     int command = inputReader.ReadByte();
-                    var server = PlayerServer;
+                    var profile = Profile;
 
                     switch (command)
                     {
                         case 0:
-                            Profile?.Use(e =>
+                            profile?.Use(e =>
                             {
                                 Matchmaker.Send(PacketType.Battle, new JsonObject
                                 {
-                                    ["id"] = server.MatchmakerId,
-                                    ["auth"] = server.MatchmakerAuth,
+                                    ["id"] = profile.MatchmakerId,
+                                    ["auth"] = profile.MatchmakerAuth,
                                     ["game_mode"] = GameMode.BGMothershipAssaul,
                                     ["command"] = BattleAction.Confirm,
                                     ["discovery_character_data"] = Profile.CreateDiscoveryCharacterResponse()
@@ -50,8 +50,8 @@ namespace StarfallTactics.StarfallTacticsServers
                         case 1:
                             Matchmaker.Send(PacketType.Battle, new JsonObject
                             {
-                                ["id"] = server.MatchmakerId,
-                                ["auth"] = server.MatchmakerAuth,
+                                ["id"] = profile?.MatchmakerId ?? -1,
+                                ["auth"] = profile?.MatchmakerAuth,
                                 ["game_mode"] = GameMode.BGMothershipAssaul,
                                 ["command"] = BattleAction.Cancel
                             });
@@ -60,8 +60,8 @@ namespace StarfallTactics.StarfallTacticsServers
                         case 2:
                             Matchmaker.Send(PacketType.Battle, new JsonObject
                             {
-                                ["id"] = server.MatchmakerId,
-                                ["auth"] = server.MatchmakerAuth,
+                                ["id"] = profile?.MatchmakerId ?? -1,
+                                ["auth"] = profile?.MatchmakerAuth,
                                 ["game_mode"] = GameMode.BGMothershipAssaul,
                                 ["command"] = BattleAction.Search,
                             });

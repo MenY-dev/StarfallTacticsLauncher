@@ -30,6 +30,16 @@ namespace StarfallTactics.StarfallTacticsServers
         [JsonIgnore]
         public StarfallDatabase Database { get; set; } = null;
 
+        [JsonIgnore]
+        public int MatchmakerId { get; set; } = -1;
+
+        [JsonIgnore]
+        public string MatchmakerAuth { get; set; } = string.Empty;
+
+        [JsonIgnore]
+        public int IndexSpace => MatchmakerId < 0 ? 0 : MatchmakerId * 5000;
+
+
         public event EventHandler<EventArgs> Edited;
 
         [JsonIgnore]

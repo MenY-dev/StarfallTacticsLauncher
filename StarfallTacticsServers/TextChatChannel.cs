@@ -30,8 +30,8 @@ namespace StarfallTactics.StarfallTacticsServers
                 case 'A':
                     Matchmaker?.Send(PacketType.Chat, new JsonObject
                     {
-                        ["id"] = PlayerServer.MatchmakerId,
-                        ["auth"] = PlayerServer.MatchmakerAuth,
+                        ["id"] = Profile?.MatchmakerId ?? -1,
+                        ["auth"] = Profile?.MatchmakerAuth,
                         ["msg"] = msg
                     });
                     this.Log($"Public Message: (Msg = {msg})");

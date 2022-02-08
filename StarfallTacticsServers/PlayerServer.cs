@@ -21,8 +21,6 @@ namespace StarfallTactics.StarfallTacticsServers
         public MatchmakerClient Matchmaker{ get; protected set; }
 
         public string MatchmakerAddress { get; set; } = "127.0.0.1:1300";
-        public int MatchmakerId { get; protected set; } = -1;
-        public string MatchmakerAuth { get; protected set; } = string.Empty;
 
         public override void Start()
         {
@@ -138,9 +136,13 @@ namespace StarfallTactics.StarfallTacticsServers
         protected virtual void HandlePlayerAuthResponse(MatchmakerPacket doc)
         {
             JsonNode response = doc.Document;
+            StarfallProfile profile = Profile;
 
-            MatchmakerId = (int)response["id"];
-            MatchmakerAuth = (string)response["auth"];
+            if (doc is null || profile is null)
+                return;
+
+            profile.MatchmakerId = (int?)response["id"] ?? -1;
+            profile.MatchmakerAuth = (string)response["auth"];
         }
 
         protected virtual void HandleAuthRequest(MatchmakerPacket doc)

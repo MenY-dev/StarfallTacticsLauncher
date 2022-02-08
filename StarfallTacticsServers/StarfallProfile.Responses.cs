@@ -405,7 +405,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
             JsonNode doc = new JsonObject
             {
-                ["id"] = ship.Id,
+                ["id"] = ship.Id + IndexSpace,
                 ["data"] = CreateShipDataResponse(ship).ToJsonString(),
                 ["position"] = ship.Position,
                 ["kills"] = ship.Kills,
@@ -434,7 +434,10 @@ namespace StarfallTactics.StarfallTacticsServers
             JsonNode doc = new JsonObject
             {
                 ["hull"] = ship.Hull,
-                ["elid"] = ship.Id,
+                ["elid"] = ship.Id + IndexSpace,
+                ["armor"] = -1,
+                ["structure"] = -1,
+                ["destroyed"] = 0,
                 ["ship_skin"] = ship.ShipSkin,
                 ["skin_color_1"] = ship.SkinColor1,
                 ["skin_color_2"] = ship.SkinColor2,
