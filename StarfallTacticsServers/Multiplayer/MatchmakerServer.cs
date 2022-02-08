@@ -66,6 +66,8 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                 }
             }
 
+            player.Send(PacketType.AuthRequest, new JsonObject());
+
             base.HandleClient(client);
 
             lock (Locker)
