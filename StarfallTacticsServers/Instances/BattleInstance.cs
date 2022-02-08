@@ -44,7 +44,7 @@ namespace StarfallTactics.StarfallTacticsServers.Instances
             JsonArray players = new JsonArray();
             JsonArray characters = new JsonArray();
 
-            doc["mothership_income_override"] = 150;
+            doc["mothership_income_override"] = 80;
 
             foreach (var item in Players)
             {
