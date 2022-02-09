@@ -420,19 +420,28 @@ namespace StarfallTactics.StarfallTacticsLauncher
             profile.Database = Database;
 
             foreach (var item in Database.Items)
-            {
                 character.AddInventoryItem(item.Id, 9999, 2);
-            }
-
-            foreach (var item in Database.Ships)
-            {
-                character.AddInventoryItem(item.Hull, 9999999, 0);
-            }
 
             foreach (var item in Database.DiscoveryItems)
-            {
                 character.AddInventoryItem(item.Id, 99999, 3);
-            }
+
+            foreach (var item in Database.CriterionShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
+
+            foreach (var item in Database.DeprivedShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
+
+            foreach (var item in Database.EclipseShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
+
+            foreach (var item in Database.VanguardShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
+
+            foreach (var item in Database.FreeTradersShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
+
+            foreach (var item in Database.MineworkersUnionShips)
+                character.AddInventoryItem(item.Hull, 9999999, 0);
 
             return profile;
         }
@@ -456,11 +465,51 @@ namespace StarfallTactics.StarfallTacticsLauncher
                 }
 
                 if (Profile?.CharacterModeProfile?.Chars?.Count > 0)
+                {
                     Profile.SelectCharacter(Profile.CharacterModeProfile.Chars[0]);
+
+                    foreach (var item in Profile.CharacterModeProfile.Chars)
+                        RemoveBannedShips(item);
+                }
             }
             catch { }
 
             UpdateValues();
+        }
+
+        public void RemoveBannedShips(Character character)
+        {
+            List<InventoryItem> items = new List<InventoryItem>(character.Inventory);
+            List<Ship> ships = new List<Ship>(character.Ships);
+
+            foreach (var item in items)
+            {
+                if (item.ItemType != 0)
+                    continue;
+
+                Faction faction = Database.GetShipFaction(item.Id);
+
+                if (faction == Faction.Nebulords ||
+                    faction == Faction.Pyramid ||
+                    faction == Faction.Screechers ||
+                    faction == Faction.Other)
+                {
+                    character.DeleteInventoryItem(item);
+                }
+            }
+
+            foreach (var ship in ships)
+            {
+                Faction faction = Database.GetShipFaction(ship.Hull);
+
+                if (faction == Faction.Nebulords ||
+                    faction == Faction.Pyramid ||
+                    faction == Faction.Screechers ||
+                    faction == Faction.Other)
+                {
+                    character.DeleteShip(ship);
+                }
+            }
         }
 
         protected void SaveProfile()

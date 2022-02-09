@@ -147,6 +147,18 @@ namespace StarfallTactics.StarfallTacticsServers
             }
         }
 
+        public void DeleteInventoryItem(InventoryItem item)
+        {
+            if (item is null)
+                return;
+
+            if (Inventory is null)
+                Inventory = new List<InventoryItem>();
+
+            if (Inventory.Contains(item))
+                Inventory.Remove(item);
+        }
+
         public InventoryItem GetInventoryItem(int id)
         {
             if (Inventory is null)
@@ -199,6 +211,18 @@ namespace StarfallTactics.StarfallTacticsServers
                     break;
                 }
             }
+        }
+
+        public void DeleteShip(Ship ship)
+        {
+            if (ship is null)
+                return;
+
+            if (Ships is null)
+                Ships = new List<Ship>();
+
+            if (Ships.Contains(ship))
+                Ships.Remove(ship);
         }
 
         public Ship GetShip(int elid)

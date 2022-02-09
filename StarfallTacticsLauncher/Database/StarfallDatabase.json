@@ -1,11 +1,13 @@
 {
-  "ships": [
+  "ships_npc_criterion": [
     {
       "hull": 509735579,
       "name": "Elision",
       "faction": "Criterion",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_yoba": [
     {
       "hull": 107205271,
       "name": "Shammuramat",
@@ -215,7 +217,9 @@
       "name": "Traveler-3",
       "faction": "Yoba",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_deprived": [
     {
       "hull": 1759819397,
       "name": "Abaris D.K.",
@@ -285,12 +289,6 @@
     {
       "hull": 1965634015,
       "name": "Atlantes U.K.L.G.",
-      "faction": "Deprived",
-      "class": "Unknown"
-    },
-    {
-      "hull": 1107013852,
-      "name": "Shield Neutralizer",
       "faction": "Deprived",
       "class": "Unknown"
     },
@@ -659,7 +657,9 @@
       "name": "Ursula R.A.S.",
       "faction": "Deprived",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_eclipse": [
     {
       "hull": 2083801834,
       "name": "Arco B1",
@@ -693,12 +693,6 @@
     {
       "hull": 1012174624,
       "name": "Artaban B1",
-      "faction": "Eclipse",
-      "class": "Unknown"
-    },
-    {
-      "hull": 1005192487,
-      "name": "Shield Neutralizer",
       "faction": "Eclipse",
       "class": "Unknown"
     },
@@ -1181,7 +1175,9 @@
       "name": "Vargas B1",
       "faction": "Eclipse",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_vanguard": [
     {
       "hull": 1408046879,
       "name": "Aegis Asl-17",
@@ -1329,12 +1325,6 @@
     {
       "hull": 245965251,
       "name": "Balmung St-23",
-      "faction": "Vanguard",
-      "class": "Unknown"
-    },
-    {
-      "hull": 1985592629,
-      "name": "Shield Neutralizer",
       "faction": "Vanguard",
       "class": "Unknown"
     },
@@ -1787,7 +1777,9 @@
       "name": "Tizona ST-58",
       "faction": "Vanguard",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_npc_free_traders": [
     {
       "hull": 166767082,
       "name": "Artaban Traders",
@@ -1829,7 +1821,9 @@
       "name": "Vargas Traders",
       "faction": "FreeTraders",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_npc_mineworkers_union": [
     {
       "hull": 2098067955,
       "name": "Aegis Mineworker Union",
@@ -1847,7 +1841,9 @@
       "name": "Kolgrim Mineworker Union",
       "faction": "MineworkersUnion",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_npc_nebulords": [
     {
       "hull": 269183317,
       "name": "Abaris Nebulords",
@@ -2159,7 +2155,9 @@
       "name": "Welder",
       "faction": "Nebulords",
       "class": "Unknown"
-    },
+    }
+  ],
+  "ships_npc_pyramid": [
     {
       "hull": 1323488411,
       "name": "Abaris P.Y.R.A.M.I.D.",
@@ -2453,13 +2451,9 @@
       "name": "Tizona P.Y.R.A.M.I.D",
       "faction": "Pyramid",
       "class": "Unknown"
-    },
-    {
-      "hull": 1573062860,
-      "name": "Charon P.Y.R.A.M.I.D.",
-      "faction": "Raid",
-      "class": "Unknown"
-    },
+    }
+  ],
+  "ships_npc_screechers": [
     {
       "hull": 177907637,
       "name": "Abaris Screechers",
@@ -2782,6 +2776,35 @@
       "hull": 194536920,
       "name": "Tizona Screechers",
       "faction": "Screechers",
+      "class": "Unknown"
+    }
+  ],
+  "ships_npc_raid": [
+    {
+      "hull": 1573062860,
+      "name": "Charon P.Y.R.A.M.I.D.",
+      "faction": "Raid",
+      "class": "Unknown"
+    }
+  ],
+  "ships_warpbeacons": [],
+  "ships_battlegrounds": [
+    {
+      "hull": 1107013852,
+      "name": "Shield Neutralizer",
+      "faction": "Battlegrounds",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1005192487,
+      "name": "Shield Neutralizer",
+      "faction": "Battlegrounds",
+      "class": "Unknown"
+    },
+    {
+      "hull": 1985592629,
+      "name": "Shield Neutralizer",
+      "faction": "Battlegrounds",
       "class": "Unknown"
     }
   ],
