@@ -469,7 +469,10 @@ namespace StarfallTactics.StarfallTacticsLauncher
                     Profile.SelectCharacter(Profile.CharacterModeProfile.Chars[0]);
 
                     foreach (var item in Profile.CharacterModeProfile.Chars)
-                        RemoveBannedShips(item);
+                    {
+                        ValidateShips(item);
+                        ValidateInventory(item);
+                    }
                 }
             }
             catch { }
@@ -477,7 +480,42 @@ namespace StarfallTactics.StarfallTacticsLauncher
             UpdateValues();
         }
 
-        public void RemoveBannedShips(Character character)
+        public void ValidateInventory(Character character)
+        {
+            List<InventoryItem> items = new List<InventoryItem>(character.Inventory);
+
+            foreach (var item in items)
+            {
+                if (item.ItemType != 2)
+                    continue;
+
+                bool isSpecOpsItem = false;
+
+                foreach (var specOpsItem in Database.SpecOpsItems)
+                {
+                    if (item.Id == specOpsItem.Id)
+                    {
+                        character.DeleteInventoryItem(item);
+                        isSpecOpsItem = true;
+                        break;
+                    }
+                }
+
+                if (isSpecOpsItem)
+                    continue;
+
+                foreach (var discoveryItem in Database.DiscoveryItems)
+                {
+                    if (item.Id == discoveryItem.Id)
+                    {
+                        character.DeleteInventoryItem(item);
+                        break;
+                    }
+                }
+            }
+        }
+
+        public void ValidateShips(Character character)
         {
             List<InventoryItem> items = new List<InventoryItem>(character.Inventory);
             List<Ship> ships = new List<Ship>(character.Ships);

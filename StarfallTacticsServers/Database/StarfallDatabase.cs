@@ -15,6 +15,9 @@ namespace StarfallTactics.StarfallTacticsServers.Database
         [JsonPropertyName("discovery_items")]
         public List<ItemEntry> DiscoveryItems { get; set; } = new List<ItemEntry>();
 
+        [JsonPropertyName("spec_ops_items")]
+        public List<ItemEntry> SpecOpsItems { get; set; } = new List<ItemEntry>();
+
         [JsonPropertyName("ships_npc_criterion")]
         public List<ShipEntry> CriterionShips { get; set; } = new List<ShipEntry>();
 

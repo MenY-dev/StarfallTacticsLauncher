@@ -5295,21 +5295,6 @@
       "type": "Armor"
     },
     {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
       "id": 489417549,
       "name": "Improved Light Autogun Fighters",
       "type": "Carrier"
@@ -5400,11 +5385,6 @@
       "type": "Engineering"
     },
     {
-      "id": 1874287510,
-      "name": "Autonomous Repair Drone",
-      "type": "Engineering"
-    },
-    {
       "id": 856488682,
       "name": "Auto Self Destruction Module",
       "type": "Engineering"
@@ -5430,11 +5410,6 @@
       "type": "Engineering"
     },
     {
-      "id": 387353803,
-      "name": "Tactical Explosive Shell",
-      "type": "Engineering"
-    },
-    {
       "id": 1048124769,
       "name": "Decoy Module",
       "type": "Engineering"
@@ -5457,11 +5432,6 @@
     {
       "id": 1443960781,
       "name": "Emergency Stasis",
-      "type": "Engineering"
-    },
-    {
-      "id": 12,
-      "name": "Error Warp",
       "type": "Engineering"
     },
     {
@@ -6000,16 +5970,6 @@
       "type": "Engineering"
     },
     {
-      "id": 1072127242,
-      "name": "Portable Nebula Generator",
-      "type": "Engineering"
-    },
-    {
-      "id": 114287116,
-      "name": "Portable Shield Generator",
-      "type": "Engineering"
-    },
-    {
       "id": 2033128687,
       "name": "Ram Module",
       "type": "Engineering"
@@ -6325,33 +6285,8 @@
       "type": "Miner"
     },
     {
-      "id": 66,
-      "name": "",
-      "type": "Miner"
-    },
-    {
-      "id": 3,
-      "name": "Iridium asteroid",
-      "type": "Miner"
-    },
-    {
-      "id": 3,
-      "name": "Ore asteroid",
-      "type": "Miner"
-    },
-    {
-      "id": 3,
-      "name": "Ore and Iridium asteroid",
-      "type": "Miner"
-    },
-    {
       "id": 1688154619,
       "name": "Mining Module",
-      "type": "Miner"
-    },
-    {
-      "id": 70,
-      "name": "",
       "type": "Miner"
     },
     {
@@ -6360,68 +6295,13 @@
       "type": "Miner"
     },
     {
-      "id": 50,
-      "name": "",
-      "type": "Miner"
-    },
-    {
-      "id": 30,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 27,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 54,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 54,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 70,
-      "name": "",
-      "type": "Misc"
-    },
-    {
       "id": 1030315993,
       "name": "SelfRepairModule",
       "type": "Misc"
     },
     {
-      "id": 54,
-      "name": "",
-      "type": "Misc"
-    },
-    {
       "id": 377555174,
       "name": "Shield Redistribution",
-      "type": "Misc"
-    },
-    {
-      "id": 30,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 41,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 54,
-      "name": "",
-      "type": "Misc"
-    },
-    {
-      "id": 45,
-      "name": "",
       "type": "Misc"
     },
     {
@@ -6565,21 +6445,6 @@
       "type": "Shields"
     },
     {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
-      "id": 48,
-      "name": "",
-      "type": "Carrier"
-    },
-    {
       "id": 489417549,
       "name": "Improved Light Autogun Fighters",
       "type": "Carrier"
@@ -6608,96 +6473,6 @@
       "id": 666455090,
       "name": "Light Plasma Bombers",
       "type": "Carrier"
-    },
-    {
-      "id": 2078681722,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 925868828,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 760294280,
-      "name": "StarHammer cannon",
-      "type": "SpecOps"
-    },
-    {
-      "id": 1484851200,
-      "name": "StarHammer mark module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 1649694316,
-      "name": "Supressor module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 607620989,
-      "name": "Unstable energy cell module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 401675674,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 403409980,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 748398376,
-      "name": "StarHammer cannon",
-      "type": "SpecOps"
-    },
-    {
-      "id": 40258208,
-      "name": "StarHammer mark module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 304740748,
-      "name": "Supressor module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 1540402205,
-      "name": "Unstable energy cell module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 1319969241,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 1532853003,
-      "name": "Invulnerability shield module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 133535811,
-      "name": "StarHammer cannon",
-      "type": "SpecOps"
-    },
-    {
-      "id": 404168899,
-      "name": "StarHammer mark module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 595192331,
-      "name": "Supressor module",
-      "type": "SpecOps"
-    },
-    {
-      "id": 666798832,
-      "name": "Unstable energy cell module",
-      "type": "SpecOps"
     }
   ],
   "discovery_items": [
@@ -7585,6 +7360,118 @@
       "id": 1162671583,
       "name": "Wires",
       "type": "Discovery"
+    },
+    {
+      "id": 1072127242,
+      "name": "Portable Nebula Generator",
+      "type": "Discovery"
+    },
+    {
+      "id": 114287116,
+      "name": "Portable Shield Generator",
+      "type": "Discovery"
+    },
+    {
+      "id": 1874287510,
+      "name": "Autonomous Repair Drone",
+      "type": "Discovery"
+    },
+    {
+      "id": 387353803,
+      "name": "Tactical Explosive Shell",
+      "type": "Discovery"
+    }
+  ],
+  "spec_ops_items": [
+    {
+      "id": 2078681722,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 925868828,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 760294280,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1484851200,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1649694316,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 607620989,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 401675674,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 403409980,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 748398376,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 40258208,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 304740748,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1540402205,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1319969241,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 1532853003,
+      "name": "Invulnerability shield module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 133535811,
+      "name": "StarHammer cannon",
+      "type": "SpecOps"
+    },
+    {
+      "id": 404168899,
+      "name": "StarHammer mark module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 595192331,
+      "name": "Supressor module",
+      "type": "SpecOps"
+    },
+    {
+      "id": 666798832,
+      "name": "Unstable energy cell module",
+      "type": "SpecOps"
     }
   ],
   "skin_colors": [
