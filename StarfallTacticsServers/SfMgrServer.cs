@@ -18,7 +18,7 @@ namespace StarfallTactics.StarfallTacticsServers
         protected StarfallProfile Profile => PlayerServer?.Profile;
         protected MatchmakerClient Matchmaker => PlayerServer?.Matchmaker;
 
-        protected static readonly string EmptyResponse = "{\"doc\": {}}";
+        protected static readonly JsonNode EmptyResponse = new JsonObject { ["ok"] = 1 };
 
         protected override void HandleQuery(HttpListenerContext context, ClientQuery query)
         {

@@ -15,7 +15,7 @@ namespace StarfallTactics.StarfallTacticsServers
     {
         public MatchmakerServer Matchmaker { get; set; }
 
-        protected static readonly string EmptyResponse = "{\"doc\": {}}";
+        protected static readonly JsonNode EmptyResponse = new JsonObject { ["ok"] = 1 };
 
         protected override void HandleQuery(HttpListenerContext context, ClientQuery query)
         {
