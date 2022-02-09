@@ -48,6 +48,9 @@ namespace StarfallTactics.StarfallTacticsServers
                         ["description"] = "Color",
                         ["itemtype"] = 0,
                         ["igcprice"] = 100,
+                        ["sfcprice"] = -1,
+                        ["bmprice"] = -1,
+                        ["realmoneyprice"] = -1,
                         ["itemtypespecificjson"] = new JsonObject()
                         {
                             ["skincolor_id"] = item.Id
@@ -79,6 +82,9 @@ namespace StarfallTactics.StarfallTacticsServers
                         ["description"] = "Decal",
                         ["itemtype"] = 2,
                         ["igcprice"] = 100,
+                        ["sfcprice"] = -1,
+                        ["bmprice"] = -1,
+                        ["realmoneyprice"] = -1,
                         ["itemtypespecificjson"] = new JsonObject()
                         {
                             ["decal_id"] = item.Id
@@ -213,6 +219,10 @@ namespace StarfallTactics.StarfallTacticsServers
                 ["name"] = new JsonObject
                 {
                     ["$"] = "0"
+                },
+                ["type"] = new JsonObject
+                {
+                    ["$"] = "111"
                 },
                 ["maxships"] = new JsonObject
                 {
