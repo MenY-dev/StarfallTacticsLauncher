@@ -65,6 +65,10 @@ namespace StarfallTactics.StarfallTacticsServers
                         response = EmptyResponse;
                         break;
 
+                    case "getdraftfleets":
+                        response = Profile.CreateDraftFleetsResponse();
+                        break;
+
                     default:
                         break;
                 }

@@ -198,6 +198,40 @@ namespace StarfallTactics.StarfallTacticsServers
         }
 
         #endregion
+        #region Ranked Mode
+
+        public JsonNode CreateDraftFleetsResponse()
+        {
+            JsonArray fleets = new JsonArray();
+
+            fleets.Add(new JsonObject
+            {
+                ["id"] = new JsonObject
+                {
+                    ["$"] = 0
+                },
+                ["name"] = new JsonObject
+                {
+                    ["$"] = "0"
+                },
+                ["maxships"] = new JsonObject
+                {
+                    ["$"] = 20
+                },
+                ["ships"] = new JsonArray()
+            });
+
+            return new JsonObject
+            {
+                ["fleets"] = fleets,
+                ["userbm"] = new JsonObject
+                {
+                    ["$"] = 1
+                }
+            };
+        }
+
+        #endregion
         #region Discovery Mode
 
         public JsonNode CreateCharacterDataResponse() =>
