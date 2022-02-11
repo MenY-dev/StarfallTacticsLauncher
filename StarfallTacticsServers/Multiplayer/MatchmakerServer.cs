@@ -39,40 +39,28 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
         protected override void HandleClient(TcpClient client)
         {
-            Player player;
-
-            lock (Locker)
-            {
-                IPEndPoint endPoint = client?.Client.RemoteEndPoint as IPEndPoint;
-                player = GetPlayer(endPoint?.Address);
-
-                if (player is null)
-                {
-                    int id = CreateId();
-
-                    player = new Player
-                    {
-                        Client = client,
-                        Id = id,
-                        Auth = Guid.NewGuid().ToString("N")
-                    };
-
-                    Players.Add(player);
-                }
-                else
-                {
-                    player.Client = client;
-                    Log($"Reconnect: (Id = {player.Id}, Name = {player.Name})");
-                }
-            }
-
-            player.Send(PacketType.AuthRequest, new JsonObject());
-
             base.HandleClient(client);
 
             lock (Locker)
             {
-                OnPlayerLeaves(new PlayerEventArgs(player));
+                Player player = GetPlayer(client);
+
+                Log($"Disconnect: (Id = {player?.Id}, Name = {player?.Name})");
+
+                if ((player is null) == false)
+                {
+                    player.Client = null;
+                    player.InGame = false;
+
+                    OnPlayerLeaves(new PlayerEventArgs(player));
+
+                    SendToAll(PacketType.PlayerDisconnected, new JsonObject
+                    {
+                        ["id"] = player.Id,
+                        ["name"] = player.Name,
+                        ["full_name"] = player.FullName
+                    });
+                }
             }
         }
          
@@ -97,6 +85,18 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     HandlePlayerJoined(client, doc);
                     break;
 
+                case PacketType.PlayerStatus:
+                    HandlePlayerStatus(client, doc);
+                    break;
+
+                case PacketType.PlayerStatusRequest:
+                    HandlePlayerStatusRequest(client, doc);
+                    break;
+
+                case PacketType.PlayersInfoRequest:
+                    HandlePlayersInfoRequest(client, doc);
+                    break;
+
                 case PacketType.Battle:
                     HandleBattle(client, doc);
                     break;
@@ -109,7 +109,6 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
                     break;
             }
         }
-
 
         protected void HandleBattle(TcpClient client, MatchmakerPacket packet)
         {
@@ -130,18 +129,37 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
         protected void HandlePlayerAuth(TcpClient client, MatchmakerPacket packet)
         {
-            Player player = GetPlayer(client);
             string playerName = (string)packet.Document["name"];
 
-            if (player is null || player.Id < 0 || string.IsNullOrWhiteSpace(playerName))
-                return;
+            if (string.IsNullOrWhiteSpace(playerName))
+                playerName = "Player";
 
-            player.Name = playerName;
+            Player player;
+
+            lock (Locker)
+            {
+                int id = CreateId();
+
+                player = new Player
+                {
+                    Client = client,
+                    Id = id,
+                    Auth = Guid.NewGuid().ToString("N"),
+                    Name = playerName,
+                    FullName = $"{id} {playerName}",
+                    InGame = true,
+                    Status = PlayerStatus.Menu
+                };
+
+                Players.Add(player);
+            }
 
             player.Send(PacketType.PlayerAuthResponse, new JsonObject
             {
                 ["id"] = player.Id,
-                ["auth"] = player.Auth
+                ["auth"] = player.Auth,
+                ["name"] = player.Name,
+                ["full_name"] = player.FullName,
             });
 
             Log($"Auth: (Name = {playerName}, Id = {player.Id})");
@@ -150,13 +168,89 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
         protected void HandlePlayerJoined(TcpClient client, MatchmakerPacket packet)
         {
             Player player = GetPlayer(client);
-            string playerName = (string)packet.Document["name"];
 
-            if (player is null || player.Id < 0 || string.IsNullOrWhiteSpace(playerName))
+            if (player is null || player.Id < 0)
                 return;
 
-            Log($"Player Joined: (Name = {playerName}, Id = {player.Id})");
-            SendPlayerConnectionMessage(player);
+            player.InGame = true;
+
+            SendToAll(PacketType.PlayerJoined, new JsonObject
+            {
+                ["id"] = player.Id,
+                ["name"] = player.Name,
+                ["full_name"] = player.FullName
+            });
+
+            Log($"Player Joined: (Name = {player.FullName}, Id = {player.Id})");
+        }
+
+        protected void HandlePlayerStatus(TcpClient client, MatchmakerPacket packet)
+        {
+            JsonNode doc = packet?.Document;
+            Player player = GetPlayer(client);
+
+            if (doc is null || player is null)
+                return;
+
+            player.Status = (PlayerStatus?)(int?)doc["status"] ?? PlayerStatus.Offline;
+
+            SendToAll(PacketType.PlayerStatus, new JsonObject
+            {
+                ["name"] = player.Name,
+                ["full_name"] = player.FullName,
+                ["in_game"] = player.InGame,
+                ["status"] = (int)player.Status
+            });
+        }
+
+        protected void HandlePlayerStatusRequest(TcpClient client, MatchmakerPacket packet)
+        {
+            JsonNode doc = packet?.Document;
+            Player player = GetPlayer(client);
+
+            if (doc is null || player is null)
+                return;
+
+            string name = (string)doc["full_name"] ?? string.Empty;
+            Player requiredPlayer = GetPlayerWithFullName(name);
+
+            if (requiredPlayer is null)
+                return;
+
+            player.Send(PacketType.PlayerStatus, new JsonObject
+            {
+                ["name"] = requiredPlayer.Name,
+                ["full_name"] = requiredPlayer.FullName,
+                ["in_game"] = requiredPlayer.InGame,
+                ["status"] = (int)requiredPlayer.Status
+            });
+        }
+
+        protected void HandlePlayersInfoRequest(TcpClient client, MatchmakerPacket packet)
+        {
+            JsonNode doc = packet?.Document;
+            Player player = GetPlayer(client);
+
+            if (doc is null || player is null)
+                return;
+
+            JsonArray players = new JsonArray();
+
+            foreach (var item in Players)
+            {
+                players.Add(new JsonObject
+                {
+                    ["name"] = item.Name,
+                    ["full_name"] = item.FullName,
+                    ["in_game"] = item.InGame,
+                    ["status"] = item.InGame ? (int)item.Status : (int)PlayerStatus.Offline
+                });
+            }
+
+            player.Send(PacketType.PlayersInfo, new JsonObject
+            {
+                ["players"] = players
+            });
         }
 
         protected void HandleChat(TcpClient client, MatchmakerPacket packet)
@@ -167,24 +261,16 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             if (doc is null || player is null)
                 return;
 
-            string name = player.Name;
+            string name = player.FullName;
             string msg = (string)doc["msg"];
 
             if (msg is null || name is null)
                 return;
 
-            Task.Factory.StartNew(() =>
+            SendToAll(PacketType.Chat, new JsonObject
             {
-                foreach (var item in Players)
-                {
-                    item?.Send(PacketType.Chat, new JsonObject
-                    {
-                        ["id"] = item.Id,
-                        ["auth"] = item.Auth,
-                        ["name"] = name,
-                        ["msg"] = msg
-                    });
-                }
+                ["name"] = name,
+                ["msg"] = msg
             });
         }
 
@@ -230,6 +316,31 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             Send(player?.Client, MatchmakerPacket.Create(packetType, packet));
         }
 
+        public void SendToAll(PacketType packetType, JsonNode packet, bool waitForCompleteon = false)
+        {
+            Task task = SendToAllAsync(packetType, packet);
+
+            if (waitForCompleteon == true)
+                task.Wait();
+        }
+
+        public async Task SendToAllAsync(PacketType packetType, JsonNode packet)
+        {
+            if (packet is null)
+                return;
+
+            JsonNode response = packet.Clone();
+
+            await Task.Factory.StartNew(() =>
+            {
+                foreach (var item in Players)
+                {
+                    if (item?.InGame == true)
+                        item.Send(packetType, response.Clone());
+                }
+            });
+        }
+
         public virtual Player GetPlayer(TcpClient client)
         {
             foreach (var item in Players)
@@ -264,7 +375,7 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
         }
 
 
-        public virtual Player GetPlayer(IPAddress address)
+        public virtual Player GetPlayer(IPEndPoint address)
         {
             if (address is null)
                 return null;
@@ -273,9 +384,21 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             {
                 IPEndPoint endPoint = item?.Client?.Client.RemoteEndPoint as IPEndPoint;
 
-                if (endPoint?.Address.Equals(address) == true)
+                if (endPoint?.Equals(address) == true)
                     return item;
             }
+
+            return null;
+        }
+
+        public virtual Player GetPlayerWithFullName(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                return null;
+
+            foreach (var item in Players)
+                if (item.FullName == name)
+                    return item;
 
             return null;
         }

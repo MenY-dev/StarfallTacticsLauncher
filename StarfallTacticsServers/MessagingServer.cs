@@ -12,16 +12,19 @@ namespace StarfallTactics.StarfallTacticsServers
     {
         protected override void HandleClient(TcpClient client)
         {
-            while ((client is null) == false && client.Connected == true)
+            while ((client?.Client is null) == false && client.Connected == true)
             {
-                string packet = MessagingPacket.Receive(client);
-
                 try
                 {
+                    string packet = MessagingPacket.Receive(client);
+
                     if (string.IsNullOrWhiteSpace(packet) == false)
                         HandleInputPacket(client, packet);
                 }
-                catch { }
+                catch
+                {
+                    break;
+                }
             }
         }
 

@@ -15,9 +15,9 @@ namespace StarfallTactics.StarfallTacticsServers
             Channels.Add(new TextChatChannel(this, "Deprived Chat", 6));
             Channels.Add(new TextChatChannel(this, "Eclipse Chat", 7));
             Channels.Add(new TextChatChannel(this, "Vanguard Chat", 8));
-            Channels.Add(new Channel(this, "CharacterFriends", 9));
+            Channels.Add(new FriendChannel(this, "CharacterFriends", 9));
             Channels.Add(new Channel(this, "QuickMatch", 10));
-            Channels.Add(new Channel(this, "CharactParty", 11));
+            Channels.Add(new CharactPartyChannel(this, "CharactParty", 11));
             Channels.Add(new BattleGroundChannel(this, "BattleGround", 12));
             Channels.Add(new Channel(this, "Discovery", 13));
             Channels.Add(new Channel(this, "Galactic", 14));

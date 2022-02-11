@@ -108,6 +108,22 @@ namespace StarfallTactics.StarfallTacticsServers
                     HandleAuthRequest(doc);
                     break;
 
+                case PacketType.PlayersInfo:
+                    HandlePlayersInfoResponse(doc);
+                    break;
+
+                case PacketType.PlayerJoined:
+                    HandlePlayerJoinedResponse(doc);
+                    break;
+
+                case PacketType.PlayerDisconnected:
+                    HandlePlayerDisconnectedResponse(doc);
+                    break;
+
+                case PacketType.PlayerStatus:
+                    HandlePlayerStatusResponse(doc);
+                    break;
+
                 case PacketType.Battle:
                     HandleBattle(doc.Document);
                     break;
@@ -125,12 +141,81 @@ namespace StarfallTactics.StarfallTacticsServers
             }
         }
 
-        public virtual void SendMatchmakerAuth()
+        protected virtual void HandlePlayerStatusResponse(MatchmakerPacket doc)
         {
-            Matchmaker?.Send(PacketType.PlayerAuth, new JsonObject
+            JsonNode response = doc.Document;
+            FriendChannel channel = SfMgrChannels.GetChannelByName("UserFriends") as FriendChannel;
+
+            if (response is null || channel is null)
+                return;
+
+            string name = (string)response["full_name"];
+            PlayerStatus status = (PlayerStatus?)(int?)response["status"] ?? PlayerStatus.Offline;
+
+            if (string.IsNullOrWhiteSpace(name))
+                return;
+
+            channel.SendFriendStatus(name, true, status);
+        }
+
+        protected virtual void HandlePlayerDisconnectedResponse(MatchmakerPacket doc)
+        {
+            JsonNode response = doc.Document;
+            FriendChannel channel = SfMgrChannels.GetChannelByName("UserFriends") as FriendChannel;
+
+            if (response is null || channel is null)
+                return;
+
+            string name = (string)response["full_name"];
+
+            if (string.IsNullOrWhiteSpace(name))
+                return;
+
+            channel.SendRemoveFromFriends(name);
+        }
+
+        protected virtual void HandlePlayerJoinedResponse(MatchmakerPacket doc)
+        {
+            JsonNode response = doc.Document;
+            FriendChannel channel = SfMgrChannels.GetChannelByName("UserFriends") as FriendChannel;
+
+            if (response is null || channel is null)
+                return;
+
+            string name = (string)response["full_name"];
+
+            if (string.IsNullOrWhiteSpace(name))
+                return;
+
+            channel.SendAcceptNewFriend(name);
+            channel.SendFriendStatus(name, true, PlayerStatus.Menu);
+        }
+
+        protected virtual void HandlePlayersInfoResponse(MatchmakerPacket doc)
+        {
+            JsonNode response = doc.Document;
+            FriendChannel channel = SfMgrChannels.GetChannelByName("UserFriends") as FriendChannel;
+
+            if (response is null || channel is null)
+                return;
+
+            JsonArray players = response["players"]?.AsArray();
+
+            if (players is null)
+                return;
+
+            foreach (var player in players)
             {
-                ["name"] = Profile.Nickname,
-            });
+                string name = (string)player?["full_name"];
+
+                if (string.IsNullOrWhiteSpace(name))
+                    continue;
+
+                channel.SendAcceptNewFriend(
+                    name,
+                    (bool?)player["in_game"] ?? false,
+                    (PlayerStatus?)(int?)player["status"] ?? PlayerStatus.Offline);
+            }
         }
 
         protected virtual void HandlePlayerAuthResponse(MatchmakerPacket doc)
@@ -138,7 +223,7 @@ namespace StarfallTactics.StarfallTacticsServers
             JsonNode response = doc.Document;
             StarfallProfile profile = Profile;
 
-            if (doc is null || profile is null)
+            if (response is null || profile is null)
                 return;
 
             profile.MatchmakerId = (int?)response["id"] ?? -1;
@@ -148,6 +233,7 @@ namespace StarfallTactics.StarfallTacticsServers
         protected virtual void HandleAuthRequest(MatchmakerPacket doc)
         {
             SendMatchmakerAuth();
+            Matchmaker?.Send(PacketType.PlayersInfoRequest, new JsonObject());
         }
 
         protected virtual void HandleBattle(JsonNode doc)
@@ -214,6 +300,14 @@ namespace StarfallTactics.StarfallTacticsServers
                 "SERVER",
                 (string)doc["msg"],
                 true);
+        }
+
+        public virtual void SendMatchmakerAuth()
+        {
+            Matchmaker?.Send(PacketType.PlayerAuth, new JsonObject
+            {
+                ["name"] = Profile.Nickname,
+            });
         }
     }
 }

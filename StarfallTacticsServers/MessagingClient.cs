@@ -126,7 +126,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         protected void Disconnect()
         {
-            if (Client?.Client != null)
+            if (Client?.Client != null && Client.Connected == true)
             {
                 Client.Close();
             }
@@ -134,7 +134,7 @@ namespace StarfallTactics.StarfallTacticsServers
 
         public virtual void Send(string packet)
         {
-            if (Client?.Connected == true)
+            if (Client?.Client != null && Client?.Connected == true)
             {
                 try
                 {

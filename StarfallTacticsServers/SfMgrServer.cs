@@ -30,7 +30,9 @@ namespace StarfallTactics.StarfallTacticsServers
                 {
                     case "auth":
                     case "authcompletion":
+                        PlayerServer?.SendMatchmakerAuth();
                         Matchmaker?.Send(PacketType.PlayerJoined, new JsonObject());
+                        //Matchmaker?.Send(PacketType.PlayersInfoRequest, new JsonObject());
                         response = JsonSerializer.SerializeToNode(new MgrAuthResponse("127.0.0.1", "1000"));
                         break;
 
