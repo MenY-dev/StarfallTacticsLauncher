@@ -17,6 +17,8 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 {
     public class MatchmakerServer : MessagingServer
     {
+        public static Version Version => MatchmakerInfo.Version;
+
         public InstanceManager InstanceManager { get; set; }
 
         public BattleMgrServer BattleMgrServer { get; set; }
@@ -103,6 +105,10 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 
                 case PacketType.Chat:
                     HandleChat(client, doc);
+                    break;
+
+                case PacketType.Info:
+                    HandleInfoRequest(client, doc);
                     break;
 
                 default:
@@ -271,6 +277,19 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
             {
                 ["name"] = name,
                 ["msg"] = msg
+            });
+        }
+
+        protected void HandleInfoRequest(TcpClient client, MatchmakerPacket packet)
+        {
+            JsonNode doc = packet?.Document;
+
+            if (doc is null)
+                return;
+
+            Send(client, PacketType.Info, new JsonObject
+            {
+                ["version"] = Version.ToString()
             });
         }
 

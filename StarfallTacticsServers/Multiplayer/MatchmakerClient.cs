@@ -10,6 +10,8 @@ namespace StarfallTactics.StarfallTacticsServers.Multiplayer
 {
     public class MatchmakerClient : MessagingClient
     {
+        public static Version Version => MatchmakerInfo.Version;
+
         public event EventHandler<MatchmakerPacketEventArgs> PacketReceived;
 
         protected override void HandleInputPacket(TcpClient client, string packet)

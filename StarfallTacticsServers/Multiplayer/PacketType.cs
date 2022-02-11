@@ -12,8 +12,9 @@
         PlayerStatusRequest = 7,
         PlayersInfo = 8,
         PlayersInfoRequest = 9,
-        Battle = 31,
-        Chat = 61,
-        SystemMessage = 62
+        Battle = 32,
+        Chat = 64,
+        SystemMessage = 65,
+        Info = 128,
     }
 }

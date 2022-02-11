@@ -358,16 +358,23 @@ namespace StarfallTactics.StarfallTacticsLauncher
                     catch { }
                 }
 
-                PlayButton.Enabled = false;
-                ProfileGroup.Enabled = false;
-                GameLocationGroup.Enabled = false;
-                MultiplayerGroup.Enabled = false;
-                DebugGroup.Enabled = false;
-                SaveProfile();
-                PlayerServer.MatchmakerAddress = matchmakerAddress;
-                PlayerServer.Profile = Profile;
-                PlayerServer.Start();
-                RunClient();
+                ConnectionCheckForm connectionForm = new ConnectionCheckForm(matchmakerAddress);
+
+                if (connectionForm.ShowDialog() == DialogResult.OK)
+                {
+                    PlayButton.Enabled = false;
+                    ProfileGroup.Enabled = false;
+                    GameLocationGroup.Enabled = false;
+                    MultiplayerGroup.Enabled = false;
+                    DebugGroup.Enabled = false;
+                    SaveProfile();
+                    PlayerServer.MatchmakerAddress = matchmakerAddress;
+                    PlayerServer.Profile = Profile;
+                    PlayerServer.Start();
+                    RunClient();
+                }
+
+                connectionForm.Dispose();
             }
         }
 

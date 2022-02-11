@@ -28,6 +28,8 @@ namespace StarfallTactics.StarfallTacticsServers
             }
         }
 
+        public event EventHandler<EventArgs> Connected;
+
         protected TcpClient Client { get; set; }
         protected object Locker { get; } = new object();
         protected CancellationTokenSource CancellationToken { get; set; }
@@ -109,6 +111,8 @@ namespace StarfallTactics.StarfallTacticsServers
 
         protected virtual void HandleConnection(TcpClient client, CancellationToken cancellationToken)
         {
+            OnConnected(EventArgs.Empty);
+
             while (client?.Connected == true)
             {
                 cancellationToken.ThrowIfCancellationRequested();
@@ -143,6 +147,11 @@ namespace StarfallTactics.StarfallTacticsServers
                 }
                 catch { }
             }
+        }
+
+        protected virtual void OnConnected(EventArgs args)
+        {
+            Connected?.Invoke(this, args);
         }
     }
 }
