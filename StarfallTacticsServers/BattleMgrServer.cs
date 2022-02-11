@@ -29,11 +29,47 @@ namespace StarfallTactics.StarfallTacticsServers
                     if (player is null)
                         break;
 
+                    JsonNode data = player.DiscoveryCharacterData;
+
+                    if (data is null)
+                    {
+                        data = new JsonObject
+                        {
+                            ["faction"] = 0,
+                            ["charactname"] = "player",
+                            ["xp_factor"] = 1,
+                            ["bonus_xp"] = 1,
+                            ["access_level"] = 7,
+                            ["level"] = 100,
+                        };
+                    }
+
+                    JsonArray ships = data["ships_list"]?.AsArray();
+
+                    if (ships is null)
+                    {
+                        ships = new JsonArray();
+                        data["ships_list"] = ships;
+                    }
+
+                    if (ships.Count < 1)
+                    {
+                        ships.Add(new JsonObject
+                        {
+                            ["id"] = 0,
+                            ["data"] = new JsonObject
+                            {
+                                ["hull"] = 1926251238,
+                                ["elid"] = 0,
+                            }.ToJsonString(),
+                        });
+                    }
+
                     response = new JsonObject
                     {
                         ["result_data"] = new JsonObject
                         {
-                            ["$"] = player.DiscoveryCharacterData?.ToJsonString()
+                            ["$"] = data?.ToJsonString()
                         }
                     };
                     break;
