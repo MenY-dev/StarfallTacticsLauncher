@@ -79,8 +79,7 @@ namespace StarfallTactics.StarfallTacticsServers.Instances
             {
                 if (instance?.Process is Process process)
                 {
-                    process.CloseMainWindow();
-                    process.Close();
+                    process.Kill();
                 }
             }
         }
@@ -167,8 +166,7 @@ namespace StarfallTactics.StarfallTacticsServers.Instances
 
                             try
                             {
-                                process.CloseMainWindow();
-                                process.Close();
+                                process.Kill();
                             }
                             catch { }
 
